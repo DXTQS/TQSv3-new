@@ -1,28 +1,27 @@
 -- translation for God Package
 
 return {
-	["god"] = "Thần",--神
+	["god"] = "Thần Tướng",--神
 
 	["#shenguanyu"] = "Quỷ Thần Tái Lâm",--鬼神再临
 	["shenguanyu"] = "Thần Quan Vũ",--神关羽
 	["wushen"] = "Võ Thần",--武神
-	[":wushen"] = "Tọa Định Kĩ. Lá Cơ như lá Sát, khi dùng Sát Cơ không giới hạn tầm.",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
+	[":wushen"] = "Tỏa Định Kỹ. Lá Cơ trên tay coi như sát. Khi dùng lá Cơ sát không cần tầm",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
 	["wuhun"] = "Võ Hồn",--武魂
-	[":wuhun"] = "锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。",
-	--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
-	["@wuhun-revenge"] = "请选择“梦魇”标记最多的一名其他角色",
-	["@nightmare"] = "梦魇",
+	[":wuhun"] = "Cứ Thèn Hó Nào Đánh Tao 1 Cái Thì Sẽ Nhận 1 Ác Mộng, Khi Tao Chết Đi Thì Thèn Nào Nhiều Ác Mộng Nhất Sẽ Lật Phán Xét, Nếu Không Phải Đào or Đào Viên Kết Nghĩa Thì Sẽ Chết Theo Tao ahihi",--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
+	["@wuhun-revenge"] = "Chọn Ác Mộng và đánh dấu lên một người khác",--请选择“梦魇”标记最多的一名其他角色
+	["@nightmare"] = "Ác Mộng",--梦魇
 	["$WuhunAnimate"] = "image=image/animate/wuhun.png",
 	["#WuhunRevenge"] = "%from 的“%arg2”被触发，拥有最多“梦魇”标记的角色 %to（%arg个）死亡",
 
-	["#shenlvmeng"] = "圣光之国士",
-	["shenlvmeng"] = "神吕蒙",
-	["shelie"] = "涉猎",
-	[":shelie"] = "摸牌阶段开始时，你可以放弃摸牌并亮出牌堆顶的五张牌：若如此做，你获得其中每种花色的牌各一张，然后将其余的牌置入弃牌堆。",
-	["gongxin"] = "攻心",
-	[":gongxin"] = "阶段技。你可以观看一名其他角色的手牌，然后选择其中一张红桃牌并选择一项：弃置之，或将之置于牌堆顶。",
-	["gongxin:discard"] = "弃置",
-	["gongxin:put"] = "置于牌堆顶",
+	["#shenlvmeng"] = "Thánh Quang Chi Quốc Sĩ",--圣光之国士
+	["shenlvmeng"] = "Thần Lữ Mông",--神吕蒙
+	["shelie"] = "Thiệp Liệp",--涉猎
+	[":shelie"] = "Đầu Lượt Rút Bài, Tak Có Thể Xem 5 Lá Bài Trên Cùng. Những Lá Khác Chất Nhau Giữ Lại Còn Những Lá Cùng Chất Chỉ Được Chọn 1. Loại Bỏ Những Lá Cùng Chất Không Được Chọn",--摸牌阶段开始时，你可以放弃摸牌并亮出牌堆顶的五张牌：若如此做，你获得其中每种花色的牌各一张，然后将其余的牌置入弃牌堆。
+	["gongxin"] = "Tâm Trí",--攻心
+	[":gongxin"] = "Một Lần Trong Mỗi Lượt. Tak Có Thể Nhìn Vào Tay Của Người Khác Và Sử Dụng Lá Cơ Để Hiện Thị Nó. Sau Đỏ Hủy Lá Đó or Đặt Lại Lên Trên Chồng Bài",--阶段技。你可以观看一名其他角色的手牌，然后选择其中一张红桃牌并选择一项：弃置之，或将之置于牌堆顶。
+	["gongxin:discard"] = "Hủy Bài",--弃置
+	["gongxin:put"] = "Đặt Lên Đầu Chồng Bài",--置于牌堆顶
 
 	["#shenzhouyu"] = "赤壁的火神",
 	["shenzhouyu"] = "神周瑜",
