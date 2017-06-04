@@ -1,14 +1,15 @@
 -- translation for God Package
 
 return {
-	["god"] = "神",
+	["god"] = "Thần",--神
 
-	["#shenguanyu"] = "鬼神再临",
-	["shenguanyu"] = "神关羽",
-	["wushen"] = "武神",
-	[":wushen"] = "锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。",
-	["wuhun"] = "武魂",
+	["#shenguanyu"] = "Quỷ Thần Tái Lâm",--鬼神再临
+	["shenguanyu"] = "Thần Quan Vũ",--神关羽
+	["wushen"] = "Võ Thần",--武神
+	[":wushen"] = "Tọa Định Kĩ. Lá Cơ như lá Sát, khi dùng Sát Cơ không giới hạn tầm.",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
+	["wuhun"] = "Võ Hồn",--武魂
 	[":wuhun"] = "锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。",
+	--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
 	["@wuhun-revenge"] = "请选择“梦魇”标记最多的一名其他角色",
 	["@nightmare"] = "梦魇",
 	["$WuhunAnimate"] = "image=image/animate/wuhun.png",

@@ -18,7 +18,7 @@ local t = {
 	[":peach"] = "Thẻ cơ bản<br /><b>Sử dụng</b>：một lần trong lượt hành động/Khi trong trạng thái hấp hối<br /><b>Mục tiêu</b>：khi bị mất máu/khi một người chơi đang trong trạng thái hấp hối<br /><b>Hiệu quả</b>：Mục tiêu hồi 1 máu。",
 
 	["crossbow"] = "GIA CÁT LIÊN NỎ",
-	[":crossbow"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：１<br /><b>Chức năng</b>：Tọa Định Kỷ。Dùng lá 【Sát】 không hạn chế。",
+	[":crossbow"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：１<br /><b>Chức năng</b>：Tọa Định Kĩ. Dùng lá 【Sát】 không hạn chế。",
 
 	["double_sword"] = "THƯ HÙNG SONG CỔ KIẾM",
 	[":double_sword"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：２<br /><b>Chức năng</b>：Khi dùng 【Sát】 cho mục tiêu khác giới, cho mục tiêu chọn bỏ 1 thẻ bài trên tay hoặc để bạn rút 1 thẻ bài.",
@@ -41,7 +41,7 @@ local t = {
 	["~axe"] = "Chọn 2 thẻ bài muốn bỏ rồi bấm OK",
 
 	["halberd"] = "PHƯƠNG THIÊN HỌA KÍCH",
-	[":halberd"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：４<br /><b>Chức năng</b>：Tọa Định Kỷ。Bạn có thể dùng 1 lá SÁT lên hai mục tiêu。",
+	[":halberd"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：４<br /><b>Chức năng</b>：Tọa Định Kĩ. Bạn có thể dùng lá cuối cùng là Sát lên 2 mục tiêu。",--锁定技。你使用最后的手牌【杀】可以额外选择至多两名目标
 
 	["kylin_bow"] = "KỲ LÂN CUNG",
 	[":kylin_bow"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：５<br /><b>Chức năng</b>：Khi dùng 【Sát】 gây thiệt hại cho người chơi, có thể loại bỏ một Chiến mã trên khu trang bị của mục tiêu。",
@@ -54,7 +54,7 @@ local t = {
 	["standard_ex_cards"] = "THẺ TIỂU CHUẨN MỞ RỘNG",
 
 	["renwang_shield"] = "NHÂN VƯƠNG THUẪN",
-	[":renwang_shield"] = "Thẻ trang bị - Phòng cụ<br /><b>Chức năng</b>：Tọa Định Kỷ. Vô hiệu hóa SÁT đen.",
+	[":renwang_shield"] = "Thẻ trang bị - Phòng cụ<br /><b>Chức năng</b>：Tọa Định Kĩ. Vô hiệu hóa SÁT đen.",
 
 	["ice_sword"] = "HÀN BĂNG KIẾM",
 	[":ice_sword"] = "Thẻ trang bị - Vũ khí<br /><b>Tầm đánh</b>：２<br /><b>Chức năng</b>： Khi gây thiệt hại bằng 【Sát】, bạn có thể chọn gây sát thương hoặc huỷ 2 thẻ bài của mục tiêu.",

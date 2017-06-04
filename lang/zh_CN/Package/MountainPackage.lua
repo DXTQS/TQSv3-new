@@ -1,12 +1,12 @@
 -- translation for Mountain Package
 
 return {
-	["mountain"] = "山包",
+	["mountain"] = "Sơn",--山包
 
-	["#zhanghe"] = "料敌机先",
-	["zhanghe"] = "张郃",
+	["#zhanghe"] = "Liệu Địch Cơ Tiên",--料敌机先
+	["zhanghe"] = "Trương Cáp",--张郃
 	["illustrator:zhanghe"] = "张帅",
-	["qiaobian"] = "巧变",
+	["qiaobian"] = "Xảo Biện",--巧变
 	[":qiaobian"] = "除准备阶段和结束阶段的阶段开始前，你可以弃置一张手牌：若如此做，你跳过该阶段。若以此法跳过摸牌阶段，你可以依次获得一至两名其他角色的各一张手牌；若以此法跳过出牌阶段，你可以将场上的一张牌置于另一名角色相应的区域内。",
 	["@qiaobian-2"] = "你可以依次获得一至两名其他角色的各一张手牌",
 	["@qiaobian-3"] = "你可以将场上的一张牌移动至另一名角色相应的区域内",
