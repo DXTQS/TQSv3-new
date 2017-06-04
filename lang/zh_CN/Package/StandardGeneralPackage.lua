@@ -207,9 +207,9 @@ return {
 	["huanggai"] = "Hoàng Cái",
 	["illustrator:huanggai"] = "G.G.G.",
 	["kurou"] = "Khổ Nhục",
-	[":kurou"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",
+	[":kurou"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",--阶段技。你可以弃置一张牌：若如此做，你失去1点体力。
 	["zhaxiang"] = "Trá Hàng",
-	[":zhaxiang"] = "Tọa Định Kỉ。Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
+	[":zhaxiang"] = "Tọa Định Kĩ. Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
 
 	["#luxun"] = "Nho Sanh Hùng Tài",
 	["luxun"] = "Lục Tốn",
