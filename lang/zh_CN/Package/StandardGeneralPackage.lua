@@ -4,8 +4,8 @@ return {
 	["standard"] = "Tiêu Chuẩn", --标准版
 
 	-- 魏势力
-	["#caocao"] = "Ngụy Vũ Đế", --
-	["caocao"] = "Tào Tháo", --曹操
+	["#caocao"] = "Ăn không ngồi rồi.", --
+	["caocao"] = "Tào Văn Tháo", --曹操
 	["illustrator:caocao"] = "青骑士",
 	["jianxiong"] = "Gian Hùng", --奸雄
 	[":jianxiong"] = "Bất cứ khi nào bạn nhận sát thương, bạn có thể chọn: 1.lấy thẻ bài gây sát thương; 2.Rút thẻ từ chồng bài rút.", --每当你受到伤害后，你可以选择一项：获得对你造成伤害的牌，或摸一张牌。
