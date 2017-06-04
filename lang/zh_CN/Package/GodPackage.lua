@@ -94,13 +94,13 @@ return {
 	[":renjie"] = "Tư Mã nhận được 1 Token độ bền cho mỗi đơn vị thiệt hại ngài ấy nhận được và mỗi thẻ ngài ấy bỏ đi trong giai đoạn hủy bài ",--锁定技。每当你受到1点伤害后或于弃牌阶段因你的弃置而失去一张牌后，你获得一枚“忍”。
 	["@bear"] = "Nhẫn",--忍
 	["baiyin"] = "Bái Ấn",--拜印
-	[":baiyin"] ="Khả Năng Đánh Thức. Nếu Tư Mã có nhiều hơn 3 Token độ bền vào đầu lượt, ngài ấy phải giảm tối đa máu mình xuống còn 1. Sau đó ngài ấy sẽ có được khả năng loại bỏ 1 Token độ bền để sử dụng bất kì kỹ năng nào khi có thể: Quỷ Tài - Bỏ 1 thẻ bài trên tay để đổi lá phán xét mới   Phóng Trục - Khi nhận thiệt hại, chọn người chơi và úp mặt tướng.Người bị úp mặt rút X lá, X là giới hạn máu và số máu hiện tại của Ngài   Hoàn Sát - Trong lượt hành động, chỉ có Tư Mã và người sắp chết có thể sử dụng đào   Chế Hành - Một lần trong lượt, có thể hủy số bài trên tay để đổi số bài mới                Tập Trí - Bất cứ khi nào sử dụng thẻ công cụ không duy trì, được rút 1 thẻ mới",--觉醒技。准备阶段开始时，若你拥有四枚或更多的“忍”，你失去1点体力上限，然后获得“极略”（你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”）。
+	[":baiyin"] ="Khả Năng Đánh Thức. Nếu Tư Mã có nhiều hơn 3 Token độ bền vào đầu lượt, ngài ấy phải giảm tối đa máu mình xuống còn 1. Sau đó ngài ấy sẽ có được khả năng loại bỏ 1 Token độ bền để sử dụng bất kì kỹ năng nào khi có thể: Quỷ Tài - Phóng Trục - Hoàn Sát - Chế Hành - Tập Trí",--觉醒技。准备阶段开始时，若你拥有四枚或更多的“忍”，你失去1点体力上限，然后获得“极略”（你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”）。
 	["$BaiyinAnimate"] = "image=image/animate/baiyin.png",
 	["jilve"] = "Cực Lược",--极略
 	[":jilve"] = "Bạn chọn 1 trong các kĩ năng sau: Quỷ Tài -> Phóng Tài -> Hoàn Sát -> Chế Hành ->	Tập Trí ",--你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”。
-	["jilve_jizhi"] = "Cực Lược Tập Trí",--极略（集智）
-	["jilve_guicai"] = "Cực Lược Quỷ Tài",--极略（鬼才）
-	["jilve_fangzhu"] = "Cực Lược Phóng Trục",--极略（放逐）
+	["jilve_jizhi"] = "Cực Lược Tập Trí : Sử dụng công cụ không duy trì, rút 1 lá",--极略（集智）
+	["jilve_guicai"] = "Cực Lược Quỷ Tài : Đổi lá phán xét mới ",--极略（鬼才）
+	["jilve_fangzhu"] = "Cực Lược Phóng Trục : Mất máu, úp mặt 1 tướng. Thèn đó được rút X lá, X là giới hạn máu và số máu hiện tại của Tư Mã ",--极略（放逐）
 	["lianpo"] = "Liên Phá",--连破
 	[":lianpo"] = "Sau khi giết chết 1 người, thêm 1 lượt nữa",--每当一名角色的回合结束后，若你于本回合杀死至少一名角色，你可以进行一个额外的回合。
 	["@jilve-zhiheng"] = "Thỉnh Phát Động Chế Hành",--请发动“制衡”
