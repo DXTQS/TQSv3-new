@@ -43,12 +43,12 @@ return {
 	["@qixing-exchange"] = "Hãy chọn bài dùng để trao đổi",--请选择牌用于交换
 	["~qixing"] = "Lựa chọn bài để thành ngôi sao",--选择的牌将成为“星”
 	["kuangfeng"] = "Cuồng Phong",--狂风
-	[":kuangfeng"] = "Vào cuối lượt của mình. Cát Lượng có thể chọn bất kì người chơi nào và loại bỏ 1 ngôi sao. Mỗi lần người chơi này nhận hỏa công, thiệt hại tăng 1. Hiệu ứng kéo dài đến lượt tiếp theo của Gia Cát",--结束阶段开始时，你可以将一张“星”置入弃牌堆并选择一名角色：若如此做，直到你的回合开始时，火焰伤害结算开始时，此伤害+1。
+	[":kuangfeng"] = "Vào cuối lượt của mình. Cát Lượng có thể chọn bất kì người chơi nào và loại bỏ 1 ngôi sao. Mỗi lần người chơi này nhận hỏa hoạn, thiệt hại tăng 1. Hiệu ứng kéo dài đến lượt tiếp theo của Gia Cát",--结束阶段开始时，你可以将一张“星”置入弃牌堆并选择一名角色：若如此做，直到你的回合开始时，火焰伤害结算开始时，此伤害+1。
 	["@gale"] = "Cuồng Phong",--狂风
 	["@kuangfeng-card"] = "Phát Động Cuồng Phong",--你可以发动“狂风”
 	["~kuangfeng"] = "Chọn 1 nhân vật-> Nhấn OK -> Chọn 1 thẻ trong cửa sổ",--选择一名角色→点击确定→然后在窗口中选择一张牌
 	["dawu"] = "Sương Mù",--大雾
-	[":dawu"] = "Vào cuối lượt. Gia Cát chọn bất kì số người chơi và loại bỏ số ngôi sao cho mỗi người. Những người này sẽ không nhận bất kì thiệt hại nào ngoại trừ sét đánh. Hiệu ứng này kéo dài cho tới lượt tiếp theo của Gia Cát",--结束阶段开始时，你可以将至少一张“星”置入弃牌堆并选择等量的角色：若如此做，直到你的回合开始时，伤害结算开始时，防止这些角色受到的非雷电属性的伤害。
+	[":dawu"] = "Vào cuối lượt. Gia Cát chọn bất kì số người chơi và loại bỏ số ngôi sao cho mỗi người. Những người được chọn sẽ không nhận bất kì thiệt hại nào ngoại trừ sét đánh. Hiệu ứng này kéo dài cho tới lượt tiếp theo của Gia Cát",--结束阶段开始时，你可以将至少一张“星”置入弃牌堆并选择等量的角色：若如此做，直到你的回合开始时，伤害结算开始时，防止这些角色受到的非雷电属性的伤害。
 	["@fog"] = "Sương Mù",--大雾
 	["@dawu-card"] = "Khởi Động Sương Mù",--你可以发动“大雾”
 	["~dawu"] = "Lựa chọn nhân vật -> Nhấn OK -> Trong cửa sổ chọn bài tương ứng với nhân vật được chọn ",--选择若干名角色→点击确定→然后在窗口中选择相应数量的牌
@@ -86,11 +86,7 @@ return {
 	["juejing"] = "Tuyệt Cảnh",--绝境
 	[":juejing"] = "Trong giai đoạn rút bài. Tử Long rút thêm ra X, X là sự khác biệt giữa mức độ hiện tại và giới hạn máu tối đa của Tử Long. Giới hạn thẻ trên tay tăng gấp đôi",--锁定技。摸牌阶段，你额外摸X张牌。你的手牌上限+2。（X为你已损失的体力值）
 	["longhun"] = "Long Hồn",--龙魂
-	[":longhun"] = "Triệu Vân có thể sử dụng thẻ X cùng chất, X là số máu của Triệu Vân còn lại, như sau
-                    Cơ - Đào
-                    Rô - Sát Hỏa
-                    Bích - Né
-                    Chuồn - Vô Giải Khả Kích",--你可以将X张同花色的牌按以下规则使用或打出：红桃当【桃】；方块当火【杀】；黑桃当【无懈可击】；梅花当【闪】。（X为你的体力值且至少为1）
+	[":longhun"] = " Triệu Vân có thể sử dụng thẻ X cùng chất,X là số máu của Triệu Vân còn lại  Cơ - Đào   Rô - Sát Hỏa   Bích - Né Chuồn - Vô Giải Khả Kích ",--你可以将X张同花色的牌按以下规则使用或打出：红桃当【桃】；方块当火【杀】；黑桃当【无懈可击】；梅花当【闪】。（X为你的体力值且至少为1）
 
 	["#shensimayi"] = "Tấn Quốc Chi Tổ",--晋国之祖
 	["shensimayi"] = "Thần Tư Mã Ý",--神司马懿
@@ -98,22 +94,10 @@ return {
 	[":renjie"] = "Tư Mã nhận được 1 Token độ bền cho mỗi đơn vị thiệt hại ngài ấy nhận được và mỗi thẻ ngài ấy bỏ đi trong giai đoạn hủy bài ",--锁定技。每当你受到1点伤害后或于弃牌阶段因你的弃置而失去一张牌后，你获得一枚“忍”。
 	["@bear"] = "Nhẫn",--忍
 	["baiyin"] = "Bái Ấn",--拜印
-	[":baiyin"] ="Khả Năng Đánh Thức. Nếu Tư Mã có nhiều hơn 3 Token độ bền vào đầu lượt, ngài ấy phải giảm tối đa máu mình xuống còn 1. Sau đó ngài ấy sẽ có được khả năng loại bỏ 1 Token độ bền để sử dụng bất kì kỹ năng nào khi có thể :
-	              Quỷ Tài - Bỏ 1 thẻ bài trên tay để đổi lá phán xét mới 
-                  Phóng Trục - Khi nhận thiệt hại, chọn người chơi và úp mặt tướng.Người bị úp mặt rút X lá, X là giới hạn máu và số máu hiện tại của Ngài
-                  Hoàn Sát - Trong lượt hành động, chỉ có Tư Mã và người sắp chết có thể sử dụng đào
-                  Chế Hành - Một lần trong lượt, có thể hủy số bài trên tay để đổi số bài mới 
-                  Tập Trí - Bất cứ khi nào sử dụng thẻ công cụ không duy trì, được rút 1 thẻ mới 
-				   
-                  	",--觉醒技。准备阶段开始时，若你拥有四枚或更多的“忍”，你失去1点体力上限，然后获得“极略”（你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”）。
+	[":baiyin"] ="Khả Năng Đánh Thức. Nếu Tư Mã có nhiều hơn 3 Token độ bền vào đầu lượt, ngài ấy phải giảm tối đa máu mình xuống còn 1. Sau đó ngài ấy sẽ có được khả năng loại bỏ 1 Token độ bền để sử dụng bất kì kỹ năng nào khi có thể: Quỷ Tài - Bỏ 1 thẻ bài trên tay để đổi lá phán xét mới   Phóng Trục - Khi nhận thiệt hại, chọn người chơi và úp mặt tướng.Người bị úp mặt rút X lá, X là giới hạn máu và số máu hiện tại của Ngài   Hoàn Sát - Trong lượt hành động, chỉ có Tư Mã và người sắp chết có thể sử dụng đào   Chế Hành - Một lần trong lượt, có thể hủy số bài trên tay để đổi số bài mới                Tập Trí - Bất cứ khi nào sử dụng thẻ công cụ không duy trì, được rút 1 thẻ mới",--觉醒技。准备阶段开始时，若你拥有四枚或更多的“忍”，你失去1点体力上限，然后获得“极略”（你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”）。
 	["$BaiyinAnimate"] = "image=image/animate/baiyin.png",
 	["jilve"] = "Cực Lược",--极略
-	[":jilve"] = "Bạn chọn 1 trong các kĩ năng sau:
-                  Quỷ Tài
-				  Phóng Trục
-				  Hoàn Sát
-				  Chế Hành
-				  Tập Trí			 ",--你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”。
+	[":jilve"] = "Bạn chọn 1 trong các kĩ năng sau: Quỷ Tài -> Phóng Tài -> Hoàn Sát -> Chế Hành ->	Tập Trí ",--你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”。
 	["jilve_jizhi"] = "Cực Lược Tập Trí",--极略（集智）
 	["jilve_guicai"] = "Cực Lược Quỷ Tài",--极略（鬼才）
 	["jilve_fangzhu"] = "Cực Lược Phóng Trục",--极略（放逐）
