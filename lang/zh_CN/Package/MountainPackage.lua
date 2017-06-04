@@ -7,36 +7,38 @@ return {
 	["zhanghe"] = "Trương Cáp",--张郃
 	["illustrator:zhanghe"] = "张帅",
 	["qiaobian"] = "Xảo Biện",--巧变
-	[":qiaobian"] = "除准备阶段和结束阶段的阶段开始前，你可以弃置一张手牌：若如此做，你跳过该阶段。若以此法跳过摸牌阶段，你可以依次获得一至两名其他角色的各一张手牌；若以此法跳过出牌阶段，你可以将场上的一张牌置于另一名角色相应的区域内。",
-	["@qiaobian-2"] = "你可以依次获得一至两名其他角色的各一张手牌",
-	["@qiaobian-3"] = "你可以将场上的一张牌移动至另一名角色相应的区域内",
-	["#qiaobian-1"] = "你可以弃置 %arg 张手牌跳过判定阶段",
-	["#qiaobian-2"] = "你可以弃置 %arg 张手牌跳过摸牌阶段",
-	["#qiaobian-3"] = "你可以弃置 %arg 张手牌跳过出牌阶段",
-	["#qiaobian-4"] = "你可以弃置 %arg 张手牌跳过弃牌阶段",
-	["~qiaobian2"] = "选择 1-2 名其他角色→点击确定",
-	["~qiaobian3"] = "选择一名角色→点击确定",
-	["@qiaobian-to"] = "请选择移动【%arg】的目标角色",
+	[":qiaobian"] = "Bạn có thể bỏ 1 lá để bỏ qua giai đoạn chuẩn bị, xả bài; nếu bỏ qua giai đoạn rút bài, bạn được rút từ 1 hoặc 2 lá từ người chơi khác. Nếu bỏ qua giai đoạn hành động, bạn được di chuyển 1 lá trong vùng của người chơi khác.",--除准备阶段和结束阶段的阶段开始前，你可以弃置一张手牌：若如此做，你跳过该阶段。若以此法跳过摸牌阶段，你可以依次获得一至两名其他角色的各一张手牌；若以此法跳过出牌阶段，你可以将场上的一张牌置于另一名角色相应的区域内。
+	["@qiaobian-2"] = "Bạn có thể lấy 1 hoặc 2 lá từ người chơi khác.",--你可以依次获得一至两名其他角色的各一张手牌
+	["@qiaobian-3"] = "Bạn có thể di chuyển 1 lá trong vùng của người chơi khác.",--你可以将场上的一张牌移动至另一名角色相应的区域内
+	["#qiaobian-1"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn phán xét.",--你可以弃置 %arg 张手牌跳过判定阶段
+	["#qiaobian-2"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn rút bài.",--你可以弃置 %arg 张手牌跳过摸牌阶段
+	["#qiaobian-3"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn hành động.",--你可以弃置 %arg 张手牌跳过出牌阶段
+	["#qiaobian-4"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn xả bài.",--你可以弃置 %arg 张手牌跳过弃牌阶段
+	["~qiaobian2"] = "Chọn 1-2 người chơi → Bấm OK",--选择 1-2 名其他角色→点击确定
+	["~qiaobian3"] = "Chọn 1 người chơi → Bấm OK",--选择一名角色→点击确定
+	["@qiaobian-to"] = "Chọn người chơi để chuyển 【%arg】",--请选择移动【%arg】的目标角色
 
-	["#dengai"] = "矫然的壮士",
-	["dengai"] = "邓艾",
-	["tuntian"] = "屯田",
-	[":tuntian"] = "你的回合外，每当你失去一次牌后，你可以进行判定：若结果不为红桃，将判定牌置于武将牌上，称为“田”。你与其他角色的距离-X。（X为“田”的数量）",
-	["#tuntian-dist"] = "屯田",
-	["field"] = "田",
-	["zaoxian"] = "凿险",
-	[":zaoxian"] = "觉醒技。准备阶段开始时，若你的“田”大于或等于三张，你失去1点体力上限，然后获得“急袭”（你可以将一张“田”当【顺手牵羊】使用）。",
+	["#dengai"] = "Kiểu Nhiên Đích Tráng Sĩ",--矫然的壮士
+	["dengai"] = "Đặng Ngải",--邓艾
+	["tuntian"] = "Đồn Điền",--屯田
+	[":tuntian"] = "Ngoài lượt hành động, mỗi khi mất 1 lá bài, bạn có thể rút phát xét; Nếu không phải cơ, đặt lá đó lên lá tướng và gọi là Điền. Tầm đánh của bạn với người chơi khác -X (X là số là Điền).",--你的回合外，每当你失去一次牌后，你可以进行判定：若结果不为红桃，将判定牌置于武将牌上，称为“田”。你与其他角色的距离-X。（X为“田”的数量）
+	["#tuntian-dist"] = "Đồn Điền",--屯田
+	["field"] = "Điền",--田
+	["zaoxian"] = "Tạc Hiểm",--凿险
+	[":zaoxian"] = "Giác Tỉnh Kĩ。Đầu giai đoạn chuẩn bị, nếu số Điền lớn hơn hoặc bằng 3, bạn mất 1 máu, rồi đạt được kĩ năng Cấp Tập (bạn được sử dụng Điền như Thuận Thủ Khiên Dương).",--觉醒技。准备阶段开始时，若你的“田”大于或等于三张，你失去1点体力上限，然后获得“急袭”（你可以将一张“田”当【顺手牵羊】使用）。
 	["$ZaoxianAnimate"] = "image=image/animate/zaoxian.png",
-	["jixi"] = "急袭",
-	[":jixi"] = "你可以将一张“田”当【顺手牵羊】使用。",
-	["@jixi-target"] = "请选择【顺手牵羊】的目标角色",
-	["~jixi"] = "选择【顺手牵羊】的目标角色→点击确定",
-	["#ZaoxianWake"] = "%from 的“田”为 %arg 张，触发“%arg2”觉醒",
-
-	["#jiangwei"] = "龙的衣钵",
-	["jiangwei"] = "姜维",
-	["tiaoxin"] = "挑衅",
-	[":tiaoxin"] = "阶段技。你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。",
+	["jixi"] = "Cấp Tập",--急袭
+	[":jixi"] = "Bạn có thể dùng Điền như Thuận Thủ Khiên Dương.",--你可以将一张“田”当【顺手牵羊】使用。
+	["@jixi-target"] = "Chọn 1 người chơi là mục tiêu của Thuận Thủ Khiên Dương",--请选择【顺手牵羊】的目标角
+	["~jixi"] = "Chọn 1 người là mục tiêu của Thuận Thủ Khiên Dương → Bấm OK",--选择【顺手牵羊】的目标角色→点击确定
+	["#ZaoxianWake"] = "%from có %arg ĐIền，“%arg2” kích hoạt.",
+--%from 的“田”为 %arg 张，触发“%arg2”觉醒
+	["#jiangwei"] = "Long Sủng Đích Y Bát",--龙的衣钵
+	["jiangwei"] = "Khương Duy",--姜维
+	["tiaoxin"] = "Khiêu Hấn",--挑衅
+	[":tiaoxin"] = "Giai Đoạn Kĩ. 你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。",
+	--阶段技。你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。
+	
 	["@tiaoxin-slash"] = "%src 对你发动“挑衅”，请对其使用一张【杀】",
 	["zhiji"] = "志继",
 	[":zhiji"] = "觉醒技。准备阶段开始时，若你没有手牌，你失去1点体力上限，然后回复1点体力或摸两张牌，并获得“观星”。",
