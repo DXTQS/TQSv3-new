@@ -32,7 +32,7 @@ return {
 				  --锁定技。【南蛮入侵】对你无效。每当一名角色指定【南蛮入侵】的目标后，你成为【南蛮入侵】的伤害来源。
 	["zaiqi"] = "Tái Khởi",--再起
 	[":zaiqi"] = "Giai đoạn rút bài, nếu bạn đã bị thương, bạn được bỏ qua giai đoạn rút bài,"..
-				 "\nrồi lật X lá, với mỗi lá đỏ bạn được hồi 1 máu, rồi lấy những lá còn lại,"..
+				 "\nrồi lật X lá, với mỗi lá Cơ bạn được hồi 1 máu, rồi lấy những lá còn lại,"..
 				 "\n(X là số máu bạn đã mất).",
 				--摸牌阶段开始时，若你已受伤，你可以放弃摸牌并亮出牌堆顶的X张牌：每有一张红桃牌，你回复1点体力，然后将所有红桃牌置入弃牌堆并获得其余的牌。（X为你已损失的体力值）
 	["#HuoshouTransfer"] = "%from kích hoạt “%arg2”，【<font color=\"yellow\"><b>Nam Man Nhập Xâm</b></font>】 có nguồn sát thường từ %from",
