@@ -7,16 +7,16 @@ return {
 	["zhanghe"] = "Trương Cáp",--张郃
 	["illustrator:zhanghe"] = "张帅",
 	["qiaobian"] = "Xảo Biện",--巧变
-	[":qiaobian"] = "除准备阶段和结束阶段的阶段开始前，你可以弃置一张手牌：若如此做，你跳过该阶段。若以此法跳过摸牌阶段，你可以依次获得一至两名其他角色的各一张手牌；若以此法跳过出牌阶段，你可以将场上的一张牌置于另一名角色相应的区域内。",
-	["@qiaobian-2"] = "你可以依次获得一至两名其他角色的各一张手牌",
-	["@qiaobian-3"] = "你可以将场上的一张牌移动至另一名角色相应的区域内",
-	["#qiaobian-1"] = "你可以弃置 %arg 张手牌跳过判定阶段",
-	["#qiaobian-2"] = "你可以弃置 %arg 张手牌跳过摸牌阶段",
-	["#qiaobian-3"] = "你可以弃置 %arg 张手牌跳过出牌阶段",
-	["#qiaobian-4"] = "你可以弃置 %arg 张手牌跳过弃牌阶段",
-	["~qiaobian2"] = "选择 1-2 名其他角色→点击确定",
-	["~qiaobian3"] = "选择一名角色→点击确定",
-	["@qiaobian-to"] = "请选择移动【%arg】的目标角色",
+	[":qiaobian"] = "Bạn có thể bỏ 1 lá để bỏ qua giai đoạn chuẩn bị, xả bài; nếu bỏ qua giai đoạn rút bài, bạn được rút từ 1 hoặc 2 lá từ người chơi khác. Nếu bỏ qua giai đoạn hành động, bạn được di chuyển 1 lá trong vùng của người chơi khác.",--除准备阶段和结束阶段的阶段开始前，你可以弃置一张手牌：若如此做，你跳过该阶段。若以此法跳过摸牌阶段，你可以依次获得一至两名其他角色的各一张手牌；若以此法跳过出牌阶段，你可以将场上的一张牌置于另一名角色相应的区域内。
+	["@qiaobian-2"] = "Bạn có thể lấy 1 hoặc 2 lá từ người chơi khác.",--你可以依次获得一至两名其他角色的各一张手牌
+	["@qiaobian-3"] = "Bạn có thể di chuyển 1 lá trong vùng của người chơi khác.",--你可以将场上的一张牌移动至另一名角色相应的区域内
+	["#qiaobian-1"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn phán xét.",--你可以弃置 %arg 张手牌跳过判定阶段
+	["#qiaobian-2"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn rút bài.",--你可以弃置 %arg 张手牌跳过摸牌阶段
+	["#qiaobian-3"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn hành động.",--你可以弃置 %arg 张手牌跳过出牌阶段
+	["#qiaobian-4"] = "Bạn có thể bỏ %arg lá để bỏ qua giai đoạn xả bài.",--你可以弃置 %arg 张手牌跳过弃牌阶段
+	["~qiaobian2"] = "Chọn 1-2 người chơi → Bấm OK",--选择 1-2 名其他角色→点击确定
+	["~qiaobian3"] = "Chọn 1 người chơi → Bấm OK",--选择一名角色→点击确定
+	["@qiaobian-to"] = "请选择移动【%arg】的目标角色",--请选择移动【%arg】的目标角色
 
 	["#dengai"] = "矫然的壮士",
 	["dengai"] = "邓艾",
