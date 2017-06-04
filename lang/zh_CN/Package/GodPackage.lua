@@ -86,7 +86,7 @@ return {
 	["juejing"] = "Tuyệt Cảnh",--绝境
 	[":juejing"] = "Trong giai đoạn rút bài. Tử Long rút thêm ra X, X là sự khác biệt giữa mức độ hiện tại và giới hạn máu tối đa của Tử Long. Giới hạn thẻ trên tay tăng gấp đôi",--锁定技。摸牌阶段，你额外摸X张牌。你的手牌上限+2。（X为你已损失的体力值）
 	["longhun"] = "Long Hồn",--龙魂
-	[":longhun"] = "Triệu Vân có thể sử dụng thẻ X cùng chất, X là số máu của Triệu Vân còn lại, như sau:
+	[":longhun"] = "Triệu Vân có thể sử dụng thẻ X cùng chất, X là số máu của Triệu Vân còn lại, như sau
                     Cơ - Đào
                     Rô - Sát Hỏa
                     Bích - Né
