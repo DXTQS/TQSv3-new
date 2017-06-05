@@ -36,13 +36,13 @@ return {
 	["#jiangwei"] = "Long Sủng Đích Y Bát",--龙的衣钵
 	["jiangwei"] = "Khương Duy",--姜维
 	["tiaoxin"] = "Khiêu Hấn",--挑衅
-	[":tiaoxin"] = "Giai Đoạn Kĩ. 你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。",
+	[":tiaoxin"] = "Giai Đoạn Kĩ. Bạn có thể chọn người chọn khác trong tầm dùng Sát lên bạn, không họ mất 1 lá bài.",
 	--阶段技。你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。
 	
-	["@tiaoxin-slash"] = "%src 对你发动“挑衅”，请对其使用一张【杀】",
-	["zhiji"] = "志继",
-	[":zhiji"] = "觉醒技。准备阶段开始时，若你没有手牌，你失去1点体力上限，然后回复1点体力或摸两张牌，并获得“观星”。",
-	["zhiji:draw"] = "摸两张牌",
+	["@tiaoxin-slash"] = "%src dùng Khiêu Hấn，hãy dùng lá Sát",--%src 对你发动“挑衅”，请对其使用一张【杀】
+	["zhiji"] = "Chí Kế",--志继
+	[":zhiji"] = "Giác TỈnh Kĩ. Nếu bạn không có bài, bạn mất một giới hạn máu rồi hồi một máu hoặc rút 2 lá bài, và đạt được kĩ năng Quan Tinh.",--觉醒技。准备阶段开始时，若你没有手牌，你失去1点体力上限，然后回复1点体力或摸两张牌，并获得“观星”。
+	["zhiji:draw"] = "摸两张牌",-摸两张牌
 	["zhiji:recover"] = "回复1点体力",
 	["$ZhijiAnimate"] = "image=image/animate/zhiji.png",
 	["#ZhijiWake"] = "%from 没有手牌，触发“%arg”觉醒",
