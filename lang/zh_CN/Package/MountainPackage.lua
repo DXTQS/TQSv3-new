@@ -96,21 +96,21 @@ return {
 	["#caiwenji"] = "Dị Hương Đích Cô Nữ",--异乡的孤女
 	["caiwenji"] = "Thái Văn Cơ",--蔡文姬
 	["illustrator:caiwenji"] = "SoniaTang",
-	["beige"] = "悲歌",--悲歌
-	[":beige"] = "每当一名角色受到一次【杀】的伤害后，你可以弃置一张牌令该角色进行判定：若结果为红桃，该角色回复1点体力；方块，该角色摸两张牌；黑桃，伤害来源将其武将牌翻面；梅花，伤害来源弃置两张牌。",
-	["@beige"] = "你可以弃置一张牌发动“悲歌”",
-	["duanchang"] = "断肠",
-	[":duanchang"] = "锁定技。杀死你的角色失去所有武将技能。",
-	["@duanchang"] = "断肠",
-	["#DuanchangLoseSkills"] = "%from 的“%arg”被触发， %to 失去所有武将技能",
+	["beige"] = "Bi Ca",--悲歌
+	[":beige"] = "Khi một người nhận sát thương từ lá Sát, bạn có thể cho người đó rút phán xét, nếu phán xét là Cơ, người đó hồi 1 máu, là Rô, người đó rút 2 lá; Chuồng, nguồn sát thương phải bỏ 2 lá; Bích, nguồn sát thương chịu úp mặt tướng.",--每当一名角色受到一次【杀】的伤害后，你可以弃置一张牌令该角色进行判定：若结果为红桃，该角色回复1点体力；方块，该角色摸两张牌；黑桃，伤害来源将其武将牌翻面；梅花，伤害来源弃置两张牌。
+	["@beige"] = "Bạn bỏ 1 lá để kích hoạt Bi Ca",--你可以弃置一张牌发动“悲歌”
+	["duanchang"] = "Đoạn Trường",--断肠
+	[":duanchang"] = "Toạ Định Kĩ。Người giết bạn bị mất hết kĩ năng。",--锁定技。杀死你的角色失去所有武将技能。
+	["@duanchang"] = "Đoạn Trường",--断肠
+	["#DuanchangLoseSkills"] = "%from kích hoạt “%arg”， %to mất hết kĩ năng",--%from 的“%arg”被触发， %to 失去所有武将技能
 
-	["#zuoci"] = "谜之仙人",
-	["zuoci"] = "左慈",
+	["#zuoci"] = "Mê Chi Tiên Nhân",--谜之仙人
+	["zuoci"] = "Tả Từ",--左慈
 	["illustrator:zuoci"] = "废柴男",
-	["huashen"] = "化身",
-	[":huashen"] ="游戏开始前，你获得两张未加入游戏的武将牌，称为“化身牌”，然后选择一张“化身牌”的一项技能（除主公技、限定技与觉醒技）。回合开始时和回合结束后，你可以更换“化身牌”，然后你可以为当前“化身牌”重新选择一项技能。你拥有你以此法选择的技能且性别与势力改为与“化身牌”相同。",
-	["xinsheng"] = "新生",
-	[":xinsheng"] = "每当你受到1点伤害后，你可以获得一张“化身牌”。",
-	["#GetHuashen"] = "%from 获得了 %arg 张“化身牌”，现在共有 %arg2 张“化身牌”",
-	["#GetHuashenDetail"] = "%from 获得了“化身牌” %arg",
+	["huashen"] = "Hoá Thân",--化身
+	[":huashen"] ="Bất đầu trò chơi, bạn được chọn 2 tướng chưa có trong trận, gọi là Hoá Thân, và được sử dụng kĩ năng của Hoá Thân (trừ Chủ Công Kĩ, Hạnh Định Kĩ, và Giản Tỉnh Kĩ). Đầu lượt và cuối lượt, bạn có thể chọn thay thế Hoá Thân.",--游戏开始前，你获得两张未加入游戏的武将牌，称为“化身牌”，然后选择一张“化身牌”的一项技能（除主公技、限定技与觉醒技）。回合开始时和回合结束后，你可以更换“化身牌”，然后你可以为当前“化身牌”重新选择一项技能。你拥有你以此法选择的技能且性别与势力改为与“化身牌”相同。
+	["xinsheng"] = "Tân Sinh",--新生
+	[":xinsheng"] = "Mỗi khi chịu một sát thương, bạn được một thẻ Hoá Thân.",--每当你受到1点伤害后，你可以获得一张“化身牌”。
+	["#GetHuashen"] = "%from có thêm thẻ Hoá Thân %arg,tổng số thẻ Hoá thân là %arg2 ",--%from 获得了 %arg 张“化身牌”，现在共有 %arg2 张“化身牌”
+	["#GetHuashenDetail"] = "%from lấy được thẻ Hoá Thân %arg",--%from 获得了“化身牌” %arg
 }
