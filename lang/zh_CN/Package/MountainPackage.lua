@@ -31,17 +31,15 @@ return {
 	[":jixi"] = "Bạn có thể dùng Điền như Thuận Thủ Khiên Dương.",--你可以将一张“田”当【顺手牵羊】使用。
 	["@jixi-target"] = "Chọn 1 người chơi là mục tiêu của Thuận Thủ Khiên Dương",--请选择【顺手牵羊】的目标角
 	["~jixi"] = "Chọn 1 người là mục tiêu của Thuận Thủ Khiên Dương → Bấm OK",--选择【顺手牵羊】的目标角色→点击确定
-	["#ZaoxianWake"] = "%from có %arg ĐIền，“%arg2” kích hoạt.",
---%from 的“田”为 %arg 张，触发“%arg2”觉醒
+	["#ZaoxianWake"] = "%from có %arg ĐIền，“%arg2” kích hoạt.",--%from 的“田”为 %arg 张，触发“%arg2”觉醒
+	
 	["#jiangwei"] = "Long Sủng Đích Y Bát",--龙的衣钵
 	["jiangwei"] = "Khương Duy",--姜维
 	["tiaoxin"] = "Khiêu Hấn",--挑衅
-	[":tiaoxin"] = "Giai Đoạn Kĩ. Bạn có thể chọn người chọn khác trong tầm dùng Sát lên bạn, không họ mất 1 lá bài.",
-	--阶段技。你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。
-	
+	[":tiaoxin"] = "Giai Đoạn Kĩ. Bạn có thể chọn người chọn khác trong tầm dùng Sát lên bạn, không họ mất 1 lá bài.",	--阶段技。你可以令攻击范围内包含你的一名角色对你使用一张【杀】，否则你弃置其一张牌。
 	["@tiaoxin-slash"] = "%src dùng Khiêu Hấn，hãy dùng lá Sát",--%src 对你发动“挑衅”，请对其使用一张【杀】
 	["zhiji"] = "Chí Kế",--志继
-	[":zhiji"] = "Giác TỈnh Kĩ. Nếu bạn không có bài, bạn mất một giới hạn máu rồi hồi một máu hoặc rút 2 lá bài, và đạt được kĩ năng Quan Tinh.",--觉醒技。准备阶段开始时，若你没有手牌，你失去1点体力上限，然后回复1点体力或摸两张牌，并获得“观星”。
+	[":zhiji"] = "Giác Tỉnh Kĩ. Nếu bạn không có bài, bạn mất một giới hạn máu rồi hồi một máu hoặc rút 2 lá bài, và đạt được kĩ năng Quan Tinh.",--觉醒技。准备阶段开始时，若你没有手牌，你失去1点体力上限，然后回复1点体力或摸两张牌，并获得“观星”。
 	["zhiji:draw"] = "Rút 2 lá bài",--摸两张牌
 	["zhiji:recover"] = "Hồi 1 máu",--回复1点体力
 	["$ZhijiAnimate"] = "image=image/animate/zhiji.png",
@@ -58,7 +56,7 @@ return {
 	["@fangquan-give"] = "Bạn có thể 1 lá và chọn người để chuyển lượt",--你可以弃置一张手牌令一名其他角色进行一个额外的回合
 	["~fangquan"] = "Chọn 1 lá bài → Chọn 1 người chơi khác → Bấm OK",--选择一张手牌→选择一名其他角色→点击确定
 	["ruoyu"] = "Nhược Ngu",--若愚
-	[":ruoyu"] = "Chủ Công Kĩ。Giả Tỉnh Kĩ。Đầu giai đoạn chuẩn bị，Nếu máu của bạn ít nhất trên chiến trường（hoặc 1），bạn được tăng 1 giới hạn máu, hồi 1 máu, và đạt được kĩ năng Kích Tướng.",--主公技。觉醒技。准备阶段开始时，若你的体力值为场上最少（或之一），你增加1点体力上限，回复1点体力，然后获得“激将”。
+	[":ruoyu"] = "Chủ Công Kĩ。Giác Tỉnh Kĩ。 Đầu giai đoạn chuẩn bị，Nếu máu của bạn ít nhất trên chiến trường（hoặc 1），bạn được tăng 1 giới hạn máu, hồi 1 máu, và đạt được kĩ năng Kích Tướng.",--主公技。觉醒技。准备阶段开始时，若你的体力值为场上最少（或之一），你增加1点体力上限，回复1点体力，然后获得“激将”。
 	["$RuoyuAnimate"] = "image=image/animate/ruoyu.png",
 	["#Fangquan"] = "%to đi thêm lượt nữa",--%to 将进行一个额外的回合
 	["#RuoyuWake"] = "%from có số máu là %arg nhỏ nhất trong chiến trường, kích hoạt “%arg2.",--%from 的体力值 %arg 为场上最少，触发“%arg2”觉醒
@@ -108,7 +106,7 @@ return {
 	["zuoci"] = "Tả Từ",--左慈
 	["illustrator:zuoci"] = "废柴男",
 	["huashen"] = "Hoá Thân",--化身
-	[":huashen"] ="Bất đầu trò chơi, bạn được chọn 2 tướng chưa có trong trận, gọi là Hoá Thân, và được sử dụng kĩ năng của Hoá Thân (trừ Chủ Công Kĩ, Hạnh Định Kĩ, và Giản Tỉnh Kĩ). Đầu lượt và cuối lượt, bạn có thể chọn thay thế Hoá Thân.",--游戏开始前，你获得两张未加入游戏的武将牌，称为“化身牌”，然后选择一张“化身牌”的一项技能（除主公技、限定技与觉醒技）。回合开始时和回合结束后，你可以更换“化身牌”，然后你可以为当前“化身牌”重新选择一项技能。你拥有你以此法选择的技能且性别与势力改为与“化身牌”相同。
+	[":huashen"] ="Bất đầu trò chơi, bạn được chọn 2 tướng chưa có trong trận, gọi là Hoá Thân, và được sử dụng kĩ năng của Hoá Thân (trừ Chủ Công Kĩ, Hạn Định Kĩ, và Giác Tỉnh Kĩ). Đầu lượt và cuối lượt, bạn có thể chọn thay thế Hoá Thân.",--游戏开始前，你获得两张未加入游戏的武将牌，称为“化身牌”，然后选择一张“化身牌”的一项技能（除主公技、限定技与觉醒技）。回合开始时和回合结束后，你可以更换“化身牌”，然后你可以为当前“化身牌”重新选择一项技能。你拥有你以此法选择的技能且性别与势力改为与“化身牌”相同。
 	["xinsheng"] = "Tân Sinh",--新生
 	[":xinsheng"] = "Mỗi khi chịu một sát thương, bạn được một thẻ Hoá Thân.",--每当你受到1点伤害后，你可以获得一张“化身牌”。
 	["#GetHuashen"] = "%from có thêm thẻ Hoá Thân %arg,tổng số thẻ Hoá thân là %arg2 ",--%from 获得了 %arg 张“化身牌”，现在共有 %arg2 张“化身牌”
