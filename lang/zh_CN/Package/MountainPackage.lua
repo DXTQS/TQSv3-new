@@ -81,22 +81,22 @@ return {
 	["#ZhibaReject"] = "%from từ chối %to bắt đầu “%arg”",--%from 拒绝 %to 发动“%arg”
 	["#HunziWake"] = "%from có máu là <font color=\"yellow\"><b>1</b></font>，kích hoạt “%arg”",--%from 的体力值为 <font color=\"yellow\"><b>1</b></font>，触发“%arg”觉醒
 
-	["#erzhang"] = "经天纬地",
-	["erzhang"] = "张昭＆张纮",
-	["&erzhang"] = "张昭张纮",
-	["illustrator:erzhang"] = "废柴男",
-	["zhijian"] = "直谏",
-	[":zhijian"] = "出牌阶段，你可以将你手牌中的一张装备牌置于一名其他角色装备区内：若如此做，你摸一张牌。",
-	["guzheng"] = "固政",
-	[":guzheng"] = "其他角色的弃牌阶段结束时，你可以令其获得一张弃牌堆中此阶段中因弃置而置入弃牌堆的该角色的手牌：若如此做，你获得弃牌堆中其余此阶段因弃置而置入弃牌堆的牌。",
-	["@guzheng"] = "你可以令 %src 获得其弃置的其中一张牌。" ,
-	["~guzheng"] = "选择一张牌 -> 点击确定" ,
-	["$ZhijianEquip"] = "%from 被装备了 %card",
+	["#erzhang"] = "Kinh Thiên Vĩ Địa",--经天纬地
+	["erzhang"] = "Trương Chiêu & Trương Hoành",--张昭＆张纮
+	["&erzhang"] = "Trương Chiêu Trương Hoành",--张昭张纮
+	["illustrator:erzhang"] = "Phế Sài Nam",--废柴男
+	["zhijian"] = "Trực Gián",--直谏
+	[":zhijian"] = "Trong lượt hành động, bạn có thể đặt một thẻ của bạn trong vùng của 1 người chơi khác, rồi bạn được rút 1 lá bài.",--出牌阶段，你可以将你手牌中的一张装备牌置于一名其他角色装备区内：若如此做，你摸一张牌。
+	["guzheng"] = "Cố Chánh",--固政
+	[":guzheng"] = "Cuối lượt xả bài của người chơi khác, bạn có thể lấy một lá bài từ những là bài người đó bỏ ra. Số còn lại đi vào chồng bài bỏ.",--其他角色的弃牌阶段结束时，你可以令其获得一张弃牌堆中此阶段中因弃置而置入弃牌堆的该角色的手牌：若如此做，你获得弃牌堆中其余此阶段因弃置而置入弃牌堆的牌。
+	["@guzheng"] = "Bạn có thể lấy một lá bài bỏ của %src " ,--你可以令 %src 获得其弃置的其中一张牌。
+	["~guzheng"] = "Chọn 1 lá bài -> Bấm OK" ,--选择一张牌 -> 点击确定
+	["$ZhijianEquip"] = "%from đã trang bị %card",--%from 被装备了 %car
 
-	["#caiwenji"] = "异乡的孤女",
-	["caiwenji"] = "蔡文姬",
+	["#caiwenji"] = "Dị Hương Đích Cô Nữ",--异乡的孤女
+	["caiwenji"] = "Thái Văn Cơ",--蔡文姬
 	["illustrator:caiwenji"] = "SoniaTang",
-	["beige"] = "悲歌",
+	["beige"] = "悲歌",--悲歌
 	[":beige"] = "每当一名角色受到一次【杀】的伤害后，你可以弃置一张牌令该角色进行判定：若结果为红桃，该角色回复1点体力；方块，该角色摸两张牌；黑桃，伤害来源将其武将牌翻面；梅花，伤害来源弃置两张牌。",
 	["@beige"] = "你可以弃置一张牌发动“悲歌”",
 	["duanchang"] = "断肠",
