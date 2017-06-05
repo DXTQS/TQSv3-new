@@ -95,10 +95,10 @@ return {
 	["caiwenji"] = "Thái Văn Cơ",--蔡文姬
 	["illustrator:caiwenji"] = "SoniaTang",
 	["beige"] = "Bi Ca",--悲歌
-	[":beige"] = "Khi một người nhận sát thương từ lá Sát, bạn có thể cho người đó rút phán xét, nếu phán xét là Cơ, người đó hồi 1 máu, là Rô, người đó rút 2 lá; Chuồng, nguồn sát thương phải bỏ 2 lá; Bích, nguồn sát thương chịu úp mặt tướng.",--每当一名角色受到一次【杀】的伤害后，你可以弃置一张牌令该角色进行判定：若结果为红桃，该角色回复1点体力；方块，该角色摸两张牌；黑桃，伤害来源将其武将牌翻面；梅花，伤害来源弃置两张牌。
+	[":beige"] = "Khi một người nhận sát thương từ lá Sát, bạn có thể cho người đó rút phán xét, nếu phán xét là Cơ, người đó hồi 1 máu, là Rô, người đó rút 2 lá; là Chuồng, nguồn sát thương phải bỏ 2 lá; là Bích, nguồn sát thương chịu úp mặt tướng.",--每当一名角色受到一次【杀】的伤害后，你可以弃置一张牌令该角色进行判定：若结果为红桃，该角色回复1点体力；方块，该角色摸两张牌；黑桃，伤害来源将其武将牌翻面；梅花，伤害来源弃置两张牌。
 	["@beige"] = "Bạn bỏ 1 lá để kích hoạt Bi Ca",--你可以弃置一张牌发动“悲歌”
 	["duanchang"] = "Đoạn Trường",--断肠
-	[":duanchang"] = "Toạ Định Kĩ。Người giết bạn bị mất hết kĩ năng。",--锁定技。杀死你的角色失去所有武将技能。
+	[":duanchang"] = "Tọa Định Kĩ。Người giết bạn bị mất hết kĩ năng。",--锁定技。杀死你的角色失去所有武将技能。
 	["@duanchang"] = "Đoạn Trường",--断肠
 	["#DuanchangLoseSkills"] = "%from kích hoạt “%arg”， %to mất hết kĩ năng",--%from 的“%arg”被触发， %to 失去所有武将技能
 
