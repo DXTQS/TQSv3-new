@@ -94,7 +94,7 @@ return {
 	[":wusheng"] = "Có thể dùng lá sắc Đỏ Như 【Sát】 phổ thông khi cần.", --你可以将一张红色牌当普通【杀】使用或打出。
 	["yijue"] = "Nghĩa Tuyệt", --义绝
 	[":yijue"] = "Giai Đoạn Kĩ. Bạn có thể chọn tỉ thí với một người chơi khác:" .. --阶段技。你可以与一名其他角色拼点：
-				 "Nếu bạn thắng, the other person cannot use any cards from their handor optional character abilities for the rest of the turn." .. --若你赢，该角色不能使用或打出手牌且其非锁定技无效，直到回合结束；
+				 "Nếu bạn thắng, người đó không thể sử dụng kĩ năng hay bài cho tới hết lượt." .. --若你赢，该角色不能使用或打出手牌且其非锁定技无效，直到回合结束；
 				 "Nếu bạn thua, bạn có thể chọn một người chơi và cho người đó hồi phúc 1 máu.", --若你没赢，你可以令该角色回复1点体力。
 	["yijue:recover"] = "Chọn một người chơi để hồi phục 1 máu.", --令目标角色回复1点体力
 

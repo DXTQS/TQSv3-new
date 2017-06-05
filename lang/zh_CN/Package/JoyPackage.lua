@@ -36,7 +36,7 @@ return {
 	[":earthquake"] = "Thẻ công cụ duy trì\
 <br /><b>Thời cơ</b>: Trong lượt hành động.\
 <br /><b>Mục tiêu</b>： Bản thân。\
-<br /><b>Hiệu quả</b>： Khi Địa Chấn được đặt vào khu vực phán xét của bạn, bạn được rút phán xét vào giai đoạn phát xét, nếu phán xét ở giữa từ 2 Chuồng đến 9 Chuồng, những người chơi trong tầm 1 của bạn phải bỏ hết trang bị (bỏ qua ngựa +1) . Nếu phán xét không nằm từ 2 Chuồng đến 9 Chuồng, Địa Chấn được chuyển cho người chơi tiếp theo.",
+<br /><b>Hiệu quả</b>： Khi Địa Chấn được đặt vào khu vực phán xét của bạn, bạn được rút phán xét vào giai đoạn phát xét, nếu phán xét ở giữa từ 2 Chuồng đến 9 Chuồng, những người chơi trong tầm của bạn phải bỏ hết trang bị (bỏ qua ngựa +1) . Nếu phán xét không nằm từ 2 Chuồng đến 9 Chuồng, Địa Chấn được chuyển cho người chơi tiếp theo.",
 --延时锦囊牌
 --出牌时机：出牌阶段。
 --使用目标：你。
