@@ -49,7 +49,7 @@ return {
 	["liushan"] = "Lưu Thiện",--刘禅
 	["illustrator:liushan"] = "LiuHeng",
 	["xiangle"] = "Hướng Lạc",--享乐
-	[":xiangle"] = "Tọa Định Kĩ. Khi bạn là mục tiêu của lá Sát, người dùng Sát phải bỏ thêm 1 lá cơ bản, nếu không lá Sát đó bị vô hiệu hoá.",--锁定技。每当你成为【杀】的目标时，【杀】的使用者须弃置一张基本牌，否则此【杀】对你无效。
+	[":xiangle"] = "Tỏa Định Kĩ. Khi bạn là mục tiêu của lá Sát, người dùng Sát phải bỏ thêm 1 lá cơ bản, nếu không lá Sát đó bị vô hiệu hoá.",--锁定技。每当你成为【杀】的目标时，【杀】的使用者须弃置一张基本牌，否则此【杀】对你无效。
 	["@xiangle-discard"] = "Bạn phải bỏ ra 1 lá cơ bản để lá Sát có hiệu lực",--你须再弃置一张基本牌使此【杀】生效
 	["fangquan"] = "Phóng Quyền",--放权
 	[":fangquan"] = "Bạn có thể bỏ qua lượt hành động, bỏ 1 lá bài và chọn 1 người chơi khác, rồi người đó được đi thêm lượt nữa. ",--你可以跳过你的出牌阶段。若以此法跳过出牌阶段，结束阶段开始时你可以弃置一张手牌并选择一名其他角色：若如此做，该角色进行一个额外的回合。
@@ -98,7 +98,7 @@ return {
 	[":beige"] = "Khi một người nhận sát thương từ lá Sát, bạn có thể cho người đó rút phán xét, nếu phán xét là Cơ, người đó hồi 1 máu, là Rô, người đó rút 2 lá; là Chuồng, nguồn sát thương phải bỏ 2 lá; là Bích, nguồn sát thương chịu úp mặt tướng.",--每当一名角色受到一次【杀】的伤害后，你可以弃置一张牌令该角色进行判定：若结果为红桃，该角色回复1点体力；方块，该角色摸两张牌；黑桃，伤害来源将其武将牌翻面；梅花，伤害来源弃置两张牌。
 	["@beige"] = "Bạn bỏ 1 lá để kích hoạt Bi Ca",--你可以弃置一张牌发动“悲歌”
 	["duanchang"] = "Đoạn Trường",--断肠
-	[":duanchang"] = "Tọa Định Kĩ。Người giết bạn bị mất hết kĩ năng。",--锁定技。杀死你的角色失去所有武将技能。
+	[":duanchang"] = "Tỏa Định Kĩ。Người giết bạn bị mất hết kĩ năng。",--锁定技。杀死你的角色失去所有武将技能。
 	["@duanchang"] = "Đoạn Trường",--断肠
 	["#DuanchangLoseSkills"] = "%from kích hoạt “%arg”， %to mất hết kĩ năng",--%from 的“%arg”被触发， %to 失去所有武将技能
 
