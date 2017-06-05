@@ -42,37 +42,37 @@ return {
 	["@tiaoxin-slash"] = "%src dùng Khiêu Hấn，hãy dùng lá Sát",--%src 对你发动“挑衅”，请对其使用一张【杀】
 	["zhiji"] = "Chí Kế",--志继
 	[":zhiji"] = "Giác TỈnh Kĩ. Nếu bạn không có bài, bạn mất một giới hạn máu rồi hồi một máu hoặc rút 2 lá bài, và đạt được kĩ năng Quan Tinh.",--觉醒技。准备阶段开始时，若你没有手牌，你失去1点体力上限，然后回复1点体力或摸两张牌，并获得“观星”。
-	["zhiji:draw"] = "摸两张牌",-摸两张牌
-	["zhiji:recover"] = "回复1点体力",
+	["zhiji:draw"] = "Rút 2 lá bài",--摸两张牌
+	["zhiji:recover"] = "Hồi 1 máu",--回复1点体力
 	["$ZhijiAnimate"] = "image=image/animate/zhiji.png",
-	["#ZhijiWake"] = "%from 没有手牌，触发“%arg”觉醒",
+	["#ZhijiWake"] = "%from không còn bài，kích hoạt “%arg”",--%from 没有手牌，触发“%arg”觉醒
 
-	["#liushan"] = "无为的真命主",
-	["liushan"] = "刘禅",
+	["#liushan"] = "Vô Vi Đích Chân Mệnh Chủ",--无为的真命主
+	["liushan"] = "Lưu Thiện",--刘禅
 	["illustrator:liushan"] = "LiuHeng",
-	["xiangle"] = "享乐",
-	[":xiangle"] = "锁定技。每当你成为【杀】的目标时，【杀】的使用者须弃置一张基本牌，否则此【杀】对你无效。",
-	["@xiangle-discard"] = "你须再弃置一张基本牌使此【杀】生效",
-	["fangquan"] = "放权",
-	[":fangquan"] = "你可以跳过你的出牌阶段。若以此法跳过出牌阶段，结束阶段开始时你可以弃置一张手牌并选择一名其他角色：若如此做，该角色进行一个额外的回合。",
-	["@fangquan-give"] = "你可以弃置一张手牌令一名其他角色进行一个额外的回合",
-	["~fangquan"] = "选择一张手牌→选择一名其他角色→点击确定",
-	["ruoyu"] = "若愚",
-	[":ruoyu"] = "主公技。觉醒技。准备阶段开始时，若你的体力值为场上最少（或之一），你增加1点体力上限，回复1点体力，然后获得“激将”。",
+	["xiangle"] = "Hướng Lạc",--享乐
+	[":xiangle"] = "Toạ Định Kĩ. Khi bạn là mục tiêu của lá Sát, người dùng Sát phải bỏ thêm 1 lá cơ bản, nếu không lá Sát đó bị vô hiệu hoá.",--锁定技。每当你成为【杀】的目标时，【杀】的使用者须弃置一张基本牌，否则此【杀】对你无效。
+	["@xiangle-discard"] = "Bạn phải bỏ ra 1 lá cơ bản để lá Sát có hiệu lực",--你须再弃置一张基本牌使此【杀】生效
+	["fangquan"] = "Phóng Quyền",--放权
+	[":fangquan"] = "Bạn có thể bỏ qua lượt hành động, bỏ 1 lá bài và chọn 1 người chơi khác, rồi người đó được đi thêm lượt nữa. ",--你可以跳过你的出牌阶段。若以此法跳过出牌阶段，结束阶段开始时你可以弃置一张手牌并选择一名其他角色：若如此做，该角色进行一个额外的回合。
+	["@fangquan-give"] = "Bạn có thể 1 lá và chọn người để chuyển lượt",--你可以弃置一张手牌令一名其他角色进行一个额外的回合
+	["~fangquan"] = "Chọn 1 lá bài → Chọn 1 người chơi khác → Bấm OK",--选择一张手牌→选择一名其他角色→点击确定
+	["ruoyu"] = "Nhược Ngu",--若愚
+	[":ruoyu"] = "Chủ Công Kĩ。Giả Tỉnh Kĩ。Đầu giai đoạn chuẩn bị，Nếu máu của bạn ít nhất trên chiến trường（hoặc 1），bạn được tăng 1 giới hạn máu, hồi 1 máu, và đạt được kĩ năng Kích Tướng.",--主公技。觉醒技。准备阶段开始时，若你的体力值为场上最少（或之一），你增加1点体力上限，回复1点体力，然后获得“激将”。
 	["$RuoyuAnimate"] = "image=image/animate/ruoyu.png",
-	["#Fangquan"] = "%to 将进行一个额外的回合",
-	["#RuoyuWake"] = "%from 的体力值 %arg 为场上最少，触发“%arg2”觉醒",
+	["#Fangquan"] = "%to đi thêm lượt nữa",--%to 将进行一个额外的回合
+	["#RuoyuWake"] = "%from có số máu là %arg nhỏ nhất trong chiến trường, kích hoạt “%arg2.",--%from 的体力值 %arg 为场上最少，触发“%arg2”觉醒
 
-	["#sunce"] = "江东的小霸王",
-	["sunce"] = "孙策",
-	["jiang"] = "激昂",
-	[":jiang"] = "每当你指定或成为红色【杀】或【决斗】的目标后，你可以摸一张牌。",
-	["hunzi"] = "魂姿",
-	[":hunzi"] = "觉醒技。准备阶段开始时，若你的体力值为1，你失去1点体力上限，然后获得“英姿”和“英魂”。",
+	["#sunce"] = "Giang Đông Đích Tiểu Bá Vương",--江东的小霸王
+	["sunce"] = "Tôn Sách",--孙策
+	["jiang"] = "Kích Ngang",--激昂
+	[":jiang"] = "Mỗi khi bạn dùng hoặc là mục tiêu của Sát đỏ, hoặc Quyết Đấu. Bạn rút 1 lá bài.",--每当你指定或成为红色【杀】或【决斗】的目标后，你可以摸一张牌。
+	["hunzi"] = "Hồn Tư",--魂姿
+	[":hunzi"] = "Giác Tỉnh Kĩ. Đầu giai đoạn chuẩn bị, nếu số máu của bạn là 1, bản giảm 1 giới hạn máu, và đạt được kĩ năng Anh Tư và Anh Hồn.",--觉醒技。准备阶段开始时，若你的体力值为1，你失去1点体力上限，然后获得“英姿”和“英魂”。
 	["$HunziAnimate"] = "image=image/animate/hunzi.png",
-	["zhiba"] = "制霸",
-	["zhiba_pindian"] = "制霸拼点",
-	[":zhiba"] = "主公技。阶段技。其他吴势力角色的出牌阶段，该角色可以与你拼点：若该角色没赢，你可以获得你与该角色的拼点牌。若你已发动“魂姿”，你可以拒绝此拼点。",
+	["zhiba"] = "Chế Bá",--制霸
+	["zhiba_pindian"] = "Chế Bá Bính Điểm",--制霸拼点
+	[":zhiba"] = "Chủ Công Kĩ. Giai Đoạn Kĩ. ",--主公技。阶段技。其他吴势力角色的出牌阶段，该角色可以与你拼点：若该角色没赢，你可以获得你与该角色的拼点牌。若你已发动“魂姿”，你可以拒绝此拼点。
 	["zhiba_pindian:accept"] = "接受",
 	["zhiba_pindian:reject"] = "拒绝",
 	["zhiba_pindian_obtain"] = "制霸获得牌",
