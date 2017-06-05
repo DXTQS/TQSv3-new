@@ -72,14 +72,14 @@ return {
 	["$HunziAnimate"] = "image=image/animate/hunzi.png",
 	["zhiba"] = "Chế Bá",--制霸
 	["zhiba_pindian"] = "Chế Bá Bính Điểm",--制霸拼点
-	[":zhiba"] = "Chủ Công Kĩ. Giai Đoạn Kĩ. ",--主公技。阶段技。其他吴势力角色的出牌阶段，该角色可以与你拼点：若该角色没赢，你可以获得你与该角色的拼点牌。若你已发动“魂姿”，你可以拒绝此拼点。
-	["zhiba_pindian:accept"] = "接受",
-	["zhiba_pindian:reject"] = "拒绝",
-	["zhiba_pindian_obtain"] = "制霸获得牌",
-	["zhiba_pindian_obtain:obtainPindianCards"] = "获得拼点牌",
-	["zhiba_pindian_obtain:reject"] = "不获得",
-	["#ZhibaReject"] = "%from 拒绝 %to 发动“%arg”",
-	["#HunziWake"] = "%from 的体力值为 <font color=\"yellow\"><b>1</b></font>，触发“%arg”觉醒",
+	[":zhiba"] = "Chủ Công Kĩ. Giai Đoạn Kĩ. Những tướng nước Ngô có thể đấu điểm với bạn trong lượt chơi của họ, nếu họ thua, bạn có thể lấy bài của người đó. Nếu bạn đã kích hoạt Hồn Tư, bạn có thể từ chối.",--主公技。阶段技。其他吴势力角色的出牌阶段，该角色可以与你拼点：若该角色没赢，你可以获得你与该角色的拼点牌。若你已发动“魂姿”，你可以拒绝此拼点。
+	["zhiba_pindian:accept"] = "Chấp nhận",--接受
+	["zhiba_pindian:reject"] = "Từ chối",--拒绝
+	["zhiba_pindian_obtain"] = "制霸获得牌",--制霸获得牌
+	["zhiba_pindian_obtain:obtainPindianCards"] = "Lấy được thẻ bài",--获得拼点牌
+	["zhiba_pindian_obtain:reject"] = "Không lấy được",--不获得
+	["#ZhibaReject"] = "%from từ chối %to bắt đầu “%arg”",--%from 拒绝 %to 发动“%arg”
+	["#HunziWake"] = "%from có máu là <font color=\"yellow\"><b>1</b></font>，kích hoạt “%arg”",--%from 的体力值为 <font color=\"yellow\"><b>1</b></font>，触发“%arg”觉醒
 
 	["#erzhang"] = "经天纬地",
 	["erzhang"] = "张昭＆张纮",
