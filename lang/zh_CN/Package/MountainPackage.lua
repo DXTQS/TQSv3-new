@@ -49,7 +49,7 @@ return {
 	["liushan"] = "Lưu Thiện",--刘禅
 	["illustrator:liushan"] = "LiuHeng",
 	["xiangle"] = "Hướng Lạc",--享乐
-	[":xiangle"] = "Toạ Định Kĩ. Khi bạn là mục tiêu của lá Sát, người dùng Sát phải bỏ thêm 1 lá cơ bản, nếu không lá Sát đó bị vô hiệu hoá.",--锁定技。每当你成为【杀】的目标时，【杀】的使用者须弃置一张基本牌，否则此【杀】对你无效。
+	[":xiangle"] = "Tọa Định Kĩ. Khi bạn là mục tiêu của lá Sát, người dùng Sát phải bỏ thêm 1 lá cơ bản, nếu không lá Sát đó bị vô hiệu hoá.",--锁定技。每当你成为【杀】的目标时，【杀】的使用者须弃置一张基本牌，否则此【杀】对你无效。
 	["@xiangle-discard"] = "Bạn phải bỏ ra 1 lá cơ bản để lá Sát có hiệu lực",--你须再弃置一张基本牌使此【杀】生效
 	["fangquan"] = "Phóng Quyền",--放权
 	[":fangquan"] = "Bạn có thể bỏ qua lượt hành động, bỏ 1 lá bài và chọn 1 người chơi khác, rồi người đó được đi thêm lượt nữa. ",--你可以跳过你的出牌阶段。若以此法跳过出牌阶段，结束阶段开始时你可以弃置一张手牌并选择一名其他角色：若如此做，该角色进行一个额外的回合。
