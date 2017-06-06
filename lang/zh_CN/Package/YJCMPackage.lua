@@ -3,20 +3,20 @@
 return {
 	["YJCM"] = "Nhất tướng thành danh",--一将成名
 
-	["#caozhi"] = "八斗之才",
-	["caozhi"] = "曹植",
+	["#caozhi"] = "Bát Đấu Chi Tài",--八斗之才
+	["caozhi"] = "Tào Thực",--曹植
 	["designer:caozhi"] = "Foxear",
 	["illustrator:caozhi"] = "木美人",
-	["luoying"] = "落英",
-	[":luoying"] = "其他角色的牌因判定或弃置而置入弃牌堆时，你可以获得其中至少一张梅花牌。",
-	["jiushi"] = "酒诗",
-	[":jiushi"] = "若你的武将牌正面朝上，你可以将武将牌翻面，视为你使用了一张【酒】。每当你受到伤害扣减体力前，若武将牌背面朝上，你可以在伤害结算后将武将牌翻至正面朝上。",
+	["luoying"] = "Lạc Anh",--落英
+	[":luoying"] = "Trong lượt của người chơi khác, có 1 thẻ đi vào chồng bài bỏ, bạn được ít nhất 1 lá Chuồng.",--其他角色的牌因判定或弃置而置入弃牌堆时，你可以获得其中至少一张梅花牌。
+	["jiushi"] = "Tửu Thi",--酒诗
+	[":jiushi"] = "若你的武将牌正面朝上，你可以将武将牌翻面，视为你使用了一张【酒】。每当你受到伤害扣减体力前，若武将牌背面朝上，你可以在伤害结算后将武将牌翻至正面朝上。",--若你的武将牌正面朝上，你可以将武将牌翻面，视为你使用了一张【酒】。每当你受到伤害扣减体力前，若武将牌背面朝上，你可以在伤害结算后将武将牌翻至正面朝上。
 
-	["#yujin"] = "魏武之刚",
-	["yujin"] = "于禁",
+	["#yujin"] = "Ngụy Vũ Chi Cương",--魏武之刚
+	["yujin"] = "Vu Cấm",--于禁
 	["designer:yujin"] = "城管无畏",
 	["illustrator:yujin"] = "Yi章",
-	["yizhong"] = "毅重",
+	["yizhong"] = "Nghị Trùng",--毅重
 	[":yizhong"] = "锁定技。若你的装备区没有防具牌，黑色【杀】对你无效。",
 
 	["#fazheng"] = "蜀汉的辅翼",
