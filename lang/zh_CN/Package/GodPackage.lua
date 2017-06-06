@@ -6,10 +6,10 @@ return {
 	["#shenguanyu"] = "Quỷ Thần Tái Lâm",--鬼神再临
 	["shenguanyu"] = "Thần Quan Vũ",--神关羽
 	["wushen"] = "Võ Thần",--武神
-	[":wushen"] = "Tỏa Định Kỹ. Lá Cơ trên tay coi như sát. Khi dùng lá Cơ sát không cần tầm",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
+	[":wushen"] = "Tỏa Định Kĩ. Lá Cơ trên tay coi như <b>【Sát】</b>. Khi dùng lá Cơ, <b>【Sát】</b> không cần tầm.",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
 	["wuhun"] = "Võ Hồn",--武魂
-	[":wuhun"] = "Cứ Thèn Hó Nào Đánh Tao 1 Cái Thì Sẽ Nhận 1 Ác Mộng, Khi Tao Chết Đi Thì Thèn Nào Nhiều Ác Mộng Nhất Sẽ Lật Phán Xét, Nếu Không Phải Đào or Đào Viên Kết Nghĩa Thì Sẽ Chết Theo Tao ahihi",--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
-	["@wuhun-revenge"] = "Chọn Ác Mộng và đánh dấu lên một người khác",--请选择“梦魇”标记最多的一名其他角色
+	[":wuhun"] = "Cứ Thèn Hó Nào Đánh Tao 1 Cái Thì Sẽ Nhận 1 <b>Ác Mộng</b>, Khi Tao Chết Đi Thì Thèn Nào Nhiều <b>【Ác Mộng】</b> Nhất Sẽ Lật Phán Xét, Nếu Không Phải <b>【Đào】</b> or <b>【Đào Viên Kết Nghĩa】</b> Thì Sẽ Chết Theo Tao ahihi.",--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
+	["@wuhun-revenge"] = "Chọn Ác Mộng và đánh dấu lên một người khác.",--请选择“梦魇”标记最多的一名其他角色
 	["@nightmare"] = "Ác Mộng",--梦魇
 	["$WuhunAnimate"] = "image=image/animate/wuhun.png",
 	["#WuhunRevenge"] = "%from 的“%arg2”被触发，拥有最多“梦魇”标记的角色 %to（%arg个）死亡",
@@ -17,20 +17,20 @@ return {
 	["#shenlvmeng"] = "Thánh Quang Chi Quốc Sĩ",--圣光之国士
 	["shenlvmeng"] = "Thần Lữ Mông",--神吕蒙
 	["shelie"] = "Thiệp Liệp",--涉猎
-	[":shelie"] = "Đầu Lượt Rút Bài, Tak có thể xem 5 lá bài trên cùng. Những lá Khác Chất Nhau Giữ Lại còn những lá Cùng Chất chỉ dược chọn 1. Loại Bỏ những lá Cùng Chất không dược chọn",--摸牌阶段开始时，你可以放弃摸牌并亮出牌堆顶的五张牌：若如此做，你获得其中每种花色的牌各一张，然后将其余的牌置入弃牌堆。
+	[":shelie"] = "Đầu Lượt Rút Bài, Tak có thể xem 5 lá bài trên cùng. Những lá Khác Chất Nhau Giữ Lại còn những lá Cùng Chất chỉ dược chọn 1. Loại Bỏ những lá Cùng Chất không dược chọn.",--摸牌阶段开始时，你可以放弃摸牌并亮出牌堆顶的五张牌：若如此做，你获得其中每种花色的牌各一张，然后将其余的牌置入弃牌堆。
 	["gongxin"] = "Tâm Trí",--攻心
-	[":gongxin"] = "Một Lần Trong Mỗi Lượt. Tak có thể nhìn vào tay của người khác và sử dụng Lá Cơ để hiện thị nó. Sau đó hủy lá đó or đặt lại lên trên Chồng Bài",--阶段技。你可以观看一名其他角色的手牌，然后选择其中一张红桃牌并选择一项：弃置之，或将之置于牌堆顶。
+	[":gongxin"] = "Giai Đoạn Kĩ. Tak có thể nhìn vào tay của người khác và sử dụng Lá Cơ để hiện thị nó. Sau đó hủy lá đó or đặt lại lên trên Chồng Bài.",--阶段技。你可以观看一名其他角色的手牌，然后选择其中一张红桃牌并选择一项：弃置之，或将之置于牌堆顶。
 	["gongxin:discard"] = "Hủy Bài",--弃置
 	["gongxin:put"] = "Đặt Lên Đầu Chồng Bài",--置于牌堆顶
 
-	["#shenzhouyu"] = "Xích Bích Hỏa Thần ",--赤壁的火神
+	["#shenzhouyu"] = "Xích Bích Hỏa Thần",--赤壁的火神
 	["shenzhouyu"] = "Thần Chu Du",--神周瑜
 	["qinyin"] = "Cầm Âm",--琴音
-	[":qinyin"] = "Khi Tao hủy đi 2 or nhiều lá bài hơn, Tao có thể để cho tụi bây hồi máu or gây thiệt hại 1 máu",--弃牌阶段结束时，若你于本阶段内弃置了至少两张你的牌，你可以选择一项：令所有角色各回复1点体力，或令所有角色各失去1点体力。
+	[":qinyin"] = "Khi Tao hủy đi 2 or nhiều lá bài hơn, Tao có thể để cho tụi bây hồi máu or gây thiệt hại +1 máu.",--弃牌阶段结束时，若你于本阶段内弃置了至少两张你的牌，你可以选择一项：令所有角色各回复1点体力，或令所有角色各失去1点体力。
 	["qinyin:up"] = "Tất cả Hồi Máu",--所有角色回复1点体力
 	["qinyin:down"] = "Tất cả Mất Máu",--所有角色失去1点体力
 	["yeyan"] = "Nghiệp Viêm",--业炎
-	[":yeyan"] = "Mỗi lần trong lượt. Chu Du có thể ném 3 cục lửa vô mặt người khác. Nếu người nào bị ăn nhiều hơn 1 cục lửa thì thèn Chu Du phải hủy đi 1 lá chất bất kì và nhận thiệt hại 3 máu =))",--限定技。出牌阶段，你可以对一至三名角色各造成1点火焰伤害；或你可以弃置四种花色的手牌各一张，失去3点体力并选择一至两名角色：若如此做，你对这些角色造成共计至多3点火焰伤害且对其中一名角色造成至少2点火焰伤害。
+	[":yeyan"] = "Hạn Định Kĩ. Chu Du có thể ném 3 cục lửa vô mặt người khác. Nếu người nào bị ăn nhiều hơn 1 cục lửa thì thèn Chu Du phải hủy đi 1 lá chất bất kì và nhận thiệt hại 3 máu =))",--限定技。出牌阶段，你可以对一至三名角色各造成1点火焰伤害；或你可以弃置四种花色的手牌各一张，失去3点体力并选择一至两名角色：若如此做，你对这些角色造成共计至多3点火焰伤害且对其中一名角色造成至少2点火焰伤害。
 	["greatyeyan"] = "Nghiệp Viêm",--业炎
 	["smallyeyan"] = "Nghiệp Viêm",--业炎
 	["$YeyanAnimate"] = "image=image/animate/yeyan.png",
@@ -59,10 +59,10 @@ return {
 	["#shencaocao"] = "Siêu Thế Chi Anh Kiệt",--超世之英杰
 	["shencaocao"] = "Thần Tào Tháo",--神曹操
 	["guixin"] = "Quy Tâm",--归心
-	[":guixin"] = "Với mối đơn vị thiệt hại mà Tháo Tak nhận được, Tháo có thể rút ra 1 lá bài từ mỗi người. Sau đó ông lật thẻ nhân vật của mình  ",--每当你受到1点伤害后，你可以依次获得所有其他角色区域内的一张牌，然后将武将牌翻面。
+	[":guixin"] = "Với mối đơn vị thiệt hại mà Tháo Tak nhận được, Tháo có thể rút ra 1 lá bài từ mỗi người. Sau đó ông lật thẻ nhân vật của mình.",--每当你受到1点伤害后，你可以依次获得所有其他角色区域内的一张牌，然后将武将牌翻面。
 	["$GuixinAnimate"] = "image=image/animate/guixin.png",
 	["feiying"] = "Phi Ảnh",--飞影
-	[":feiying"] = "Tỏa Định Kỹ. Luôn có ngựa +1",--锁定技。其他角色与你的距离+1
+	[":feiying"] = "Tỏa Định Kĩ. Luôn có ngựa +1",--锁定技。其他角色与你的距离+1
 
 	["#shenlvbu"] = "Tu La Chi Đạo",--修罗之道
 	["shenlvbu"] = "Thần Lã Bố",--神吕布
@@ -74,7 +74,7 @@ return {
 	["wuqian"] = "Vô Tiền",--无前
 	[":wuqian"] = "Trong lượt của mình. Lữ Bố có thể sử dụng 2 Rage Tokens và chọn 1 người chơi. Trong phần còn lại của lượt, áo giáp của mục tiêu sẽ bị bỏ qua và xem như quyết đấu với mục tiêu",--出牌阶段，你可以弃两枚“暴怒”标记并选择一名其他角色：若如此做，你拥有“无双”且该角色防具无效，直到回合结束。
 	["shenfen"] = "Thần Phẫn",--神愤
-	[":shenfen"] = "Mỗi lần 1 lượt. Lữ Bố có thể hủy 6 Rage Tokens. Lữ Bố gây 1 đơn vị thiệt hại cho mỗi người chơi khác. Sau đó trang bị của mỗi người chơi bị loại bỏ. Tiếp theo mỗi người chơi phải loại bỏ 4 thẻ bài. Cuối cùng Lữ Bố lật thể nhân vật mình lên",--阶段技。你可以弃六枚“暴怒”标记：若如此做，所有其他角色受到1点伤害，弃置装备区的所有牌，弃置四张手牌，然后你将武将牌翻面。
+	[":shenfen"] = "Giai Đoạn Kĩ. Lữ Bố có thể hủy 6 Rage Tokens. Lữ Bố gây 1 đơn vị thiệt hại cho mỗi người chơi khác. Sau đó trang bị của mỗi người chơi bị loại bỏ. Tiếp theo mỗi người chơi phải loại bỏ 4 thẻ bài. Cuối cùng Lữ Bố úp mặt tướng mình.",--阶段技。你可以弃六枚“暴怒”标记：若如此做，所有其他角色受到1点伤害，弃置装备区的所有牌，弃置四张手牌，然后你将武将牌翻面。
 	["$ShenfenAnimate"] = "image=image/animate/shenfen.png",
 	["#KuangbaoDamage"] = "%from 的“%arg2”被触发，造成 %arg 点伤害获得 %arg 枚“暴怒”标记",
 	["#KuangbaoDamaged"] = "%from 的“%arg2”被触发，受到 %arg 点伤害获得 %arg 枚“暴怒”标记",
@@ -86,7 +86,12 @@ return {
 	["juejing"] = "Tuyệt Cảnh",--绝境
 	[":juejing"] = "Trong giai đoạn rút bài. Tử Long rút thêm ra X, X là sự khác biệt giữa mức độ hiện tại và giới hạn máu tối đa của Tử Long. Giới hạn thẻ trên tay tăng gấp đôi",--锁定技。摸牌阶段，你额外摸X张牌。你的手牌上限+2。（X为你已损失的体力值）
 	["longhun"] = "Long Hồn",--龙魂
-	[":longhun"] = " Triệu Vân có thể sử dụng thẻ X cùng chất,X là số máu của Triệu Vân còn lại  Cơ - Đào   Rô - Sát Hỏa   Bích - Né Chuồn - Vô Giải Khả Kích ",--你可以将X张同花色的牌按以下规则使用或打出：红桃当【桃】；方块当火【杀】；黑桃当【无懈可击】；梅花当【闪】。（X为你的体力值且至少为1）
+	[":longhun"] = " Triệu Vân có thể sử dụng X thẻ cùng chất (X là số máu của Triệu Vân còn lại):<br/>" ..
+				   "Cơ: <b>【Đào】</b><br/>" ..
+				   "Rô: <b>【Hỏa Sát】</b><br/>" ..
+				   "Chuồng: <b>【Vô Giải Khả Kích】</b><br/>" ..
+				   "Bích: <b>【Tránh】</b>.",
+				   --你可以将X张同花色的牌按以下规则使用或打出：红桃当【桃】；方块当火【杀】；黑桃当【无懈可击】；梅花当【闪】。（X为你的体力值且至少为1）
 
 	["#shensimayi"] = "Tấn Quốc Chi Tổ",--晋国之祖
 	["shensimayi"] = "Thần Tư Mã Ý",--神司马懿

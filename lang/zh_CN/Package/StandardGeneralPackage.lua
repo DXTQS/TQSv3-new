@@ -134,7 +134,7 @@ return {
 	["machao"] = "Mã Siêu", --马超
 	["illustrator:machao"] = "KayaK, 木美人, 张帅",
 	["mashu"] = "Mã Thuật", --马术
-	[":mashu"] = "Tỏa Định Kỹ. Khoảng cách từ bạn đến người chơi khác là -1", --锁定技。你与其他角色的距离-1。
+	[":mashu"] = "Tỏa Định Kĩ. Khoảng cách từ bạn đến người chơi khác là -1", --锁定技。你与其他角色的距离-1。
 	["tieji"] = "Thiết Kị", --铁骑
 	[":tieji"] = "Mỗi lần dùng lá 【Sát】 lên mục tiêu， bạn được rút phán xét và các kỹ năng của mục tiêu tạm thời bị vô hiệu hóa cho đến hêt lượt： mục tiêu phải bỏ 1 lá cùng lá với lá phán xêt nếu không sẽ không được dùng 【Ngự】.", --每当你指定【杀】的目标后，你可以令该角色的非锁定技无效直到回合结束并进行判定：若如此做，该角色须弃置一张与判定牌花色相同的牌，否则其不能使用【闪】响应此【杀】。
 	["@tieji-discard"] = "Hãy bỏ 1 thẻ bài %arg，Nếu không bạn không thể dùng 【Ngự】", --请弃置一张 %arg 牌，否则你不能使用【闪】响应此【杀】
