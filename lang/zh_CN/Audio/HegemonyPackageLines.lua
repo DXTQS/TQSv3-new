@@ -9,9 +9,9 @@ return {
 	["~yuejin"] = "戎马一生，何惧死乎！",
 
 	-- 甘夫人
-	["cv:ganfuren"] = "神马芯",
-	["$shushen1"] = "履行脩仁，淑慎其身。",
-	["$shushen2"] = "夫君，大志不可忘呀。", --刘备
+	["cv:ganfuren"] = "Thần Mã Tâm",
+	["$shushen1"] = "Lí hành tu nhân, Thục Thận kì nhân.", --履行脩仁，淑慎其身。
+	["$shushen2"] = "Phu Quân, Đại chí bất khả vong nha.", --夫君，大志不可忘呀。
 	["$shenzhi"] = "玩物易丧志，弃之可修身。",
 	["~ganfuren"] = "生同室，死同穴……",
 
