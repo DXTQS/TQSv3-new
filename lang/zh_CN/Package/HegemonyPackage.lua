@@ -32,19 +32,20 @@ return {
 	["duoshi"] = "Độ Thế", --度势
 	[":duoshi"] = "Giới hạn 4 lần trong lượt hành động, bạn có thể bỏ 1 lá bài đỏ trên tay và chọn bất kỳ người chơi khác:<br />Nếu làm vậy, bạn và tất cả những người được chọn được rút 2 lá và bỏ 2 lá.",
 
-	["#dingfeng"] = "清侧重臣",
-	["dingfeng"] = "丁奉-国",
-	["illustrator:dingfeng"] = "魔鬼鱼",
-	["duanbing"] = "短兵",
-	[":duanbing"] = "锁定技。你使用【杀】可以额外选择一名距离1的目标。",
-	["fenxun"] = "奋迅",
-	[":fenxun"] = "阶段技。你可以弃置一张牌并选择一名其他角色：若如此做，本回合你无视与该角色的距离。",
+	["#dingfeng"] = "Thanh Trắc Trọng Thần", --清侧重臣
+	["dingfeng"] = "Đinh Phụng - Quốc", --丁奉-国
+	["illustrator:dingfeng"] = "Ma Quỷ Ngư", --魔鬼鱼
+	["duanbing"] = "Đoản Binh", --短兵
+	[":duanbing"] = "Tỏa Định Kĩ. Khi bạn sử dụng <b>【Sát】</b> lên một nhân vật mục tiêu thì bạn có thể chọn thêm 1 mục tiêu nữa trong tầm đánh của họ.", --锁定技。你使用【杀】可以额外选择一名距离1的目标。
 
-	["#mateng"] = "驰骋西陲",
-	["mateng"] = "马腾",
+	["fenxun"] = "Phấn Tấn", --奋迅
+	[":fenxun"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 thẻ và chọn một trong những người chơi khác:<br />Nếu bạn làm vậy, trong lượt này giới hạn giữa bạn và người chơi đó là không giới hạn.", --阶段技。你可以弃置一张牌并选择一名其他角色：若如此做，本回合你无视与该角色的距离。
+
+	["#mateng"] = "Trì Sính Tây Thùy", --驰骋西陲
+	["mateng"] = "Mã Đằng - Q", --马腾
 	["illustrator:mateng"] = "DH",
-	["xiongyi"] = "雄异",
-	[":xiongyi"] = "限定技。出牌阶段，你可以令你与任意数量的其他角色摸三张牌：若以此法摸牌的角色数不大于全场角色数的一半，你回复1点体力。",
+	["xiongyi"] = "Hùng Dị",
+	[":xiongyi"] = "Hạn Định Kĩ. ", --限定技。出牌阶段，你可以令你与任意数量的其他角色摸三张牌：若以此法摸牌的角色数不大于全场角色数的一半，你回复1点体力。
 	["$XiongyiAnimate"] = "image=image/animate/xiongyi.png",
 
 	["#kongrong"] = "凛然重义",
