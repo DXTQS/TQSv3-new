@@ -6,9 +6,9 @@ return {
 	["#shenguanyu"] = "Quỷ Thần Tái Lâm",--鬼神再临
 	["shenguanyu"] = "Thần Quan Vũ",--神关羽
 	["wushen"] = "Võ Thần",--武神
-	[":wushen"] = "Tỏa Định Kĩ. Lá Cơ trên tay coi như <b>【Sát】</b>. Khi dùng lá Cơ, <b>【Sát】</b> không cần tầm.",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
+	[":wushen"] = "Tỏa Định Kĩ. Lá Cơ trên tay coi như <b>【Sát】</b>. Khi dùng lá Cơ thì <b>【Sát】</b> không cần tầm.",--锁定技。你的红桃手牌视为普通【杀】。你使用红桃【杀】无距离限制。
 	["wuhun"] = "Võ Hồn",--武魂
-	[":wuhun"] = "Cứ Thèn Hó Nào Đánh Tao 1 Cái Thì Sẽ Nhận 1 <b>Ác Mộng</b>, Khi Tao Chết Đi Thì Thèn Nào Nhiều <b>【Ác Mộng】</b> Nhất Sẽ Lật Phán Xét, Nếu Không Phải <b>【Đào】</b> or <b>【Đào Viên Kết Nghĩa】</b> Thì Sẽ Chết Theo Tao ahihi.",--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
+	[":wuhun"] = "Cứ thèn hó nào đánh tao 1 cái thì sẽ nhận 1 <b>Ác Mộng</b>, khi tao chết đi thì thèn nào nhiều <b>【Ác Mộng】</b> nhất sẽ lật phán xét, nếu không phải <b>【Đào】</b> or <b>【Đào Viên Kết Nghĩa】</b> thì sẽ chết theo tao ahihi.",--锁定技。每当你受到伤害扣减体力前，伤害来源获得等于伤害点数的“梦魇”标记。你死亡时，你选择一名存活的“梦魇”标记数最多（不为0）的角色，该角色进行判定：若结果不为【桃】或【桃园结义】，该角色死亡。
 	["@wuhun-revenge"] = "Chọn Ác Mộng và đánh dấu lên một người khác.",--请选择“梦魇”标记最多的一名其他角色
 	["@nightmare"] = "Ác Mộng",--梦魇
 	["$WuhunAnimate"] = "image=image/animate/wuhun.png",
@@ -99,7 +99,7 @@ return {
 	[":renjie"] = "Tư Mã nhận được 1 Token độ bền cho mỗi đơn vị thiệt hại ngài ấy nhận được và mỗi thẻ ngài ấy bỏ đi trong giai đoạn hủy bài ",--锁定技。每当你受到1点伤害后或于弃牌阶段因你的弃置而失去一张牌后，你获得一枚“忍”。
 	["@bear"] = "Nhẫn",--忍
 	["baiyin"] = "Bái Ấn",--拜印
-	[":baiyin"] ="Khả Năng Đánh Thức. Nếu Tư Mã có nhiều hơn 3 Token độ bền vào đầu lượt, ngài ấy phải giảm tối đa máu mình xuống còn 1. Sau đó ngài ấy sẽ có được khả năng loại bỏ 1 Token độ bền để sử dụng bất kì kỹ năng nào khi có thể: Quỷ Tài - Phóng Trục - Hoàn Sát - Chế Hành - Tập Trí",--觉醒技。准备阶段开始时，若你拥有四枚或更多的“忍”，你失去1点体力上限，然后获得“极略”（你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”）。
+	[":baiyin"] ="Giác Tỉnh Kĩ. Nếu Tư Mã có nhiều hơn 3 Token độ bền vào đầu lượt, ngài ấy phải giảm tối đa máu mình xuống còn 1. Sau đó ngài ấy sẽ có được khả năng loại bỏ 1 Token độ bền để sử dụng bất kì kỹ năng nào khi có thể: Quỷ Tài - Phóng Trục - Hoàn Sát - Chế Hành - Tập Trí",--觉醒技。准备阶段开始时，若你拥有四枚或更多的“忍”，你失去1点体力上限，然后获得“极略”（你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”）。
 	["$BaiyinAnimate"] = "image=image/animate/baiyin.png",
 	["jilve"] = "Cực Lược",--极略
 	[":jilve"] = "Bạn chọn 1 trong các kĩ năng sau: Quỷ Tài -> Phóng Tài -> Hoàn Sát -> Chế Hành ->	Tập Trí ",--你可以弃一枚“忍”并发动以下技能之一：“鬼才”、“放逐”、“集智”、“制衡”、“完杀”。
