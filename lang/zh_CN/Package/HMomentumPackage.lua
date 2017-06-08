@@ -1,4 +1,4 @@
--- translation for Hegemony Momentum Package
+-- translation for Hegemony Momentum Package 11212
 
 return {
 	["h_momentum"] = "国战-势包",

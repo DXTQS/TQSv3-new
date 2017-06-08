@@ -58,10 +58,10 @@ return {
 	["@lirang-distribute"] = "bạn có thể kích Hoạt “Lễ Nhượng” để cho %arg lá bài cho một người chơi khác.", --你可以发动“礼让”将 %arg 张牌任意分配给其他角色
 	["#Mingshi"] = "%from 的“<font color=\"yellow\"><b>名士</b></font>”被触发，伤害从 %arg 点减少至 %arg2 点",
 
-	["#jiling"] = "仲家的主将",
-	["jiling"] = "纪灵",
+	["#jiling"] = "Trọng Gia Đích Chủ Tướng",
+	["jiling"] = "Kỉ Linh", --纪灵
 	["illustrator:jiling"] = "樱花闪乱",
-	["shuangren"] = "双刃",
+	["shuangren"] = "Song Nhận", --双刃
 	[":shuangren"] = "出牌阶段开始时，你可以与一名其他角色拼点：若你赢，视为你使用一张无距离限制的【杀】；若你没赢，你结束出牌阶段。",
 	["@shuangren-card"] = "你可以发动“双刃”",
 	["~shuangren"] = "选择一名其他角色→点击确定",
