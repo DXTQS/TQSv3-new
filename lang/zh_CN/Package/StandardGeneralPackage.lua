@@ -322,10 +322,10 @@ return {
 	["gaodayihao"] = "Cao Đạt Nhất Hiệu",
 	["illustrator:gaodayihao"] = "Ba Tát Tiểu Mã",
 	["gdjuejing"] = "Tuyệt Cảnh",
-	[":gdjuejing"] = "Tọa Định Kĩ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
+	[":gdjuejing"] = "Tỏa Định Kĩ.Vào lượt rút bài，bạn bỏ qua lượt rút bài。Khi số bài trên tay thay đổi，nếu không cầm 4 lá，bạn phải lấy hoặc bỏ để số bài về 4.",
 	["#GdJuejing"] = "%from kích hoạt “%arg”，bỏ qua lượt rút bài",
 	["gdlonghun"] = "Long Hồn",
-	[":gdlonghun"] = "Bạn có thể dụng bài như sau: \nlá CƠ như ĐÀO, \nRÔ như SÁT, \nBÍCH như VÔ GIẢI KHẢ KÍCH, \nCHUỒN như TRÁNH. \nỞ giai đoạn chuẩn bị, nếu có người chơi trang bị THANH CÔNG KIẾM, bạn được quyền lấy nó. ",
+	[":gdlonghun"] = "Bạn có thể dụng bài như sau: \nlá Cơ như Đào, \n lá Rô như Sát, \n lá Bích như Vô Giải Khả Kích, \nlá Chuồng như Tránh. \nỞ giai đoạn chuẩn bị, nếu có người chơi trang bị Thanh Công Kiếm, bạn được quyền lấy nó. ",
 
 	["nobenghuai_dongzhuo"] = "Vô Băng Đổng Trác",
 	["&nobenghuai_dongzhuo"] = "Đổng Trác",

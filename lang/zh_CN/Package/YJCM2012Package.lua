@@ -1,15 +1,15 @@
 -- translation for YJCM2012 Package
 
 return {
-	["YJCM2012"] = "Nhất tướng thành danh 2012",--一将成名2012
+	["YJCM2012"] = "Đệ Nhất Danh Tướng 2012",--一将成名2012
 
-	["#xunyou"] = "曹魏的谋主",
-	["xunyou"] = "荀攸",
+	["#xunyou"] = "Tào Ngụy Đích Đế Mưu Chủ",--曹魏的谋主
+	["xunyou"] = "Tuân Du",--荀攸
 	["designer:xunyou"] = "淬毒",
 	["illustrator:xunyou"] = "魔鬼鱼",
-	["qice"] = "奇策",
+	["qice"] = "Cơ Sách",--奇策
 	[":qice"] = "阶段技。你可以将你的所有手牌（至少一张）当任意一张非延时锦囊牌使用。",
-	["zhiyu"] = "智愚",
+	["zhiyu"] = "Trí Ngu",--智愚
 	[":zhiyu"] = "每当你受到伤害后，你可以摸一张牌：若如此做，你展示所有手牌。若你的手牌均为同一颜色，伤害来源弃置一张手牌。",
 
 	["#caozhang"] = "黄须儿",
