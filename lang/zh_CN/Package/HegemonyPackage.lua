@@ -39,29 +39,29 @@ return {
 	[":duanbing"] = "Tỏa Định Kĩ. Khi bạn sử dụng <b>【Sát】</b> lên một nhân vật mục tiêu thì bạn có thể chọn thêm 1 mục tiêu nữa trong tầm đánh của họ.", --锁定技。你使用【杀】可以额外选择一名距离1的目标。
 
 	["fenxun"] = "Phấn Tấn", --奋迅
-	[":fenxun"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 thẻ và chọn một trong những người chơi khác:<br />Nếu bạn làm vậy, trong lượt này giới hạn giữa bạn và người chơi đó là không giới hạn.", --阶段技。你可以弃置一张牌并选择一名其他角色：若如此做，本回合你无视与该角色的距离。
+	[":fenxun"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 thẻ và chọn một trong những người chơi khác:<br />Nếu bạn làm vậy, trong lượt này khoảng cách giữa bạn và người chơi đó là không giới hạn.", --阶段技。你可以弃置一张牌并选择一名其他角色：若如此做，本回合你无视与该角色的距离。
 
 	["#mateng"] = "Trì Sính Tây Thùy", --驰骋西陲
-	["mateng"] = "Mã Đằng - Q", --马腾
+	["mateng"] = "Mã Đằng", --马腾
 	["illustrator:mateng"] = "DH",
 	["xiongyi"] = "Hùng Dị",
-	[":xiongyi"] = "Hạn Định Kĩ. ", --限定技。出牌阶段，你可以令你与任意数量的其他角色摸三张牌：若以此法摸牌的角色数不大于全场角色数的一半，你回复1点体力。
+	[":xiongyi"] = "Hạn Định Kĩ. Trong lượt dùng bài, bạn có thể chọn 1 cơ số người chơi bất kỳ. mỗi người chơi bạn chọn sẽ được rút 3 lá. Nếu bạn chỉ chọn chính mình, bạn được hồi 1 HP.", --限定技。出牌阶段，你可以令你与任意数量的其他角色摸三张牌：若以此法摸牌的角色数不大于全场角色数的一半，你回复1点体力。
 	["$XiongyiAnimate"] = "image=image/animate/xiongyi.png",
 
-	["#kongrong"] = "凛然重义",
-	["kongrong"] = "孔融",
-	["illustrator:kongrong"] = "苍月白龙",
-	["mingshi"] = "名士",
-	[":mingshi"] = "锁定技。每当你受到有来源的伤害时，若伤害来源装备区的牌数不大于X，此伤害-1。（X为你装备区的牌数且至多为2）",
-	["lirang"] = "礼让",
-	[":lirang"] = "每当你的牌因弃置而置入弃牌堆时，你可以将其中至少一张牌任意分配给其他角色。",
-	["@lirang-distribute"] = "你可以发动“礼让”将 %arg 张牌任意分配给其他角色",
+	["#kongrong"] = "Lẫm Nhiên Trọng Nghĩa", --凛然重义
+	["kongrong"] = "Khổng Dung", --孔融
+	["illustrator:kongrong"] = "Thương Nguyệt Bạch Long", --苍月白龙
+	["mingshi"] = "Danh Sĩ", --名士
+	[":mingshi"] = "Tỏa Định Kĩ. Khi bạn nhận thiệt hại,  if the source of damage to the equipment area is not greater than the number of X, this damage -1. (X is the number of your equipment area and up to 2)", -- 锁定技。每当你受到有来源的伤害时，若伤害来源装备区的牌数不大于X，此伤害-1。（X为你装备区的牌数且至多为2）
+	["lirang"] = "Lễ Nhượng", --礼让
+	[":lirang"] = "Khi kết thúc lượt bỏ bài, bạn có thể cho những lá này cho một người chơi khác.", --每当你的牌因弃置而置入弃牌堆时，你可以将其中至少一张牌任意分配给其他角色。
+	["@lirang-distribute"] = "bạn có thể kích Hoạt “Lễ Nhượng” để cho %arg lá bài cho một người chơi khác.", --你可以发动“礼让”将 %arg 张牌任意分配给其他角色
 	["#Mingshi"] = "%from 的“<font color=\"yellow\"><b>名士</b></font>”被触发，伤害从 %arg 点减少至 %arg2 点",
 
-	["#jiling"] = "仲家的主将",
-	["jiling"] = "纪灵",
+	["#jiling"] = "Trọng Gia Đích Chủ Tướng",
+	["jiling"] = "Kỉ Linh", --纪灵
 	["illustrator:jiling"] = "樱花闪乱",
-	["shuangren"] = "双刃",
+	["shuangren"] = "Song Nhận", --双刃
 	[":shuangren"] = "出牌阶段开始时，你可以与一名其他角色拼点：若你赢，视为你使用一张无距离限制的【杀】；若你没赢，你结束出牌阶段。",
 	["@shuangren-card"] = "你可以发动“双刃”",
 	["~shuangren"] = "选择一名其他角色→点击确定",
