@@ -62,9 +62,9 @@ return {
 	["jiling"] = "Kỉ Linh", --纪灵
 	["illustrator:jiling"] = "樱花闪乱",
 	["shuangren"] = "Song Nhận", --双刃
-	[":shuangren"] = "出牌阶段开始时，你可以与一名其他角色拼点：若你赢，视为你使用一张无距离限制的【杀】；若你没赢，你结束出牌阶段。",
-	["@shuangren-card"] = "你可以发动“双刃”",
-	["~shuangren"] = "选择一名其他角色→点击确定",
+	[":shuangren"] = "Đầu giai đoạn hành động, bạn có thể đấu điểm với 1 người khác:<br /> Nếu bạn thắng, xem như dùng lá <b>【Sát】</b> lên người đó;<br />Nếu thua, bạn kết thúc giai đoạn hành động.", --出牌阶段开始时，你可以与一名其他角色拼点：若你赢，视为你使用一张无距离限制的【杀】；若你没赢，你结束出牌阶段。
+	["@shuangren-card"] = "Bạn có thể phát động “Song Nhận”", --你可以发动“双刃”
+	["~shuangren"] = "Chọn một người chơi → Ấn Xác Nhận.",
 
 	["#tianfeng"] = "河北瑰杰",
 	["tianfeng"] = "田丰",
