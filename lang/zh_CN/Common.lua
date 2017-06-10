@@ -207,16 +207,16 @@ CommonTranslationTable = {
 
 	["@waked"] = "giác tỉnh", --觉醒
 
-	["CAPITAL(1)"] = "Một", --一
-	["CAPITAL(2)"] = "Hai", --二
-	["CAPITAL(3)"] = "Ba", --三
-	["CAPITAL(4)"] = "Bốn", --四
-	["CAPITAL(5)"] = "Năm", --五
-	["CAPITAL(6)"] = "Sáu", --六
-	["CAPITAL(7)"] = "Bãy", --七
-	["CAPITAL(8)"] = "Tám", --八
-	["CAPITAL(9)"] = "Chín", --九
-	["CAPITAL(10)"] = "Mười", --十
+	["CAPITAL(1)"] = "S1", --一
+	["CAPITAL(2)"] = "S2", --二
+	["CAPITAL(3)"] = "S3", --三
+	["CAPITAL(4)"] = "S4", --四
+	["CAPITAL(5)"] = "S5", --五
+	["CAPITAL(6)"] = "S6", --六
+	["CAPITAL(7)"] = "S7", --七
+	["CAPITAL(8)"] = "S8", --八
+	["CAPITAL(9)"] = "S9", --九
+	["CAPITAL(10)"] = "S10", --十
 }
 
 return CommonTranslationTable

@@ -671,7 +671,7 @@
     <message>
         <location filename="../src/dialog/choosegeneraldialog.cpp" line="179"/>
         <source>The lord has chosen %1. Your seat is %2. %3</source>
-        <translation type="unfinished">Quân chủ đã chọn &lt;b&gt;%1&lt;/b&gt;. số ghế của bạn là %2. %3</translation>
+        <translation type="unfinished">Quân chủ đã chọn &lt;b&gt;%1&lt;/b&gt;. số ghế của bạn là &lt;b&gt;%2&lt;/b&gt;. %3</translation>
     </message>
     <message>
         <location filename="../src/dialog/choosegeneraldialog.cpp" line="205"/>
@@ -827,7 +827,7 @@
     <message>
         <location filename="../src/client/client.cpp" line="1700"/>
         <source>%1 ask for you to play a card to pindian</source>
-        <translation type="unfinished">%1 ask for you to play a card to pindian</translation>
+        <translation type="unfinished">%1 yêu cầu bạn xuất ra 1 thẻ để tiến hành đấu điểm</translation>
     </message>
     <message>
         <location filename="../src/client/client.cpp" line="1725"/>
@@ -1160,12 +1160,12 @@
         <location filename="../src/dialog/connectiondialog.ui" line="17"/>
         <location filename="../src/dialog/connectiondialog.ui" line="29"/>
         <source>Connection setup</source>
-        <translation type="unfinished">Connection setup</translation>
+        <translation type="unfinished">Thiết lập kết nối</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="76"/>
         <source>Change avatar</source>
-        <translation type="unfinished">Change avatar</translation>
+        <translation type="unfinished">Đổi Avatar</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="41"/>
@@ -1175,17 +1175,17 @@
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="131"/>
         <source>Host:</source>
-        <translation type="unfinished">Host:</translation>
+        <translation type="unfinished">IP Máy chủ:</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="118"/>
         <source>Name:</source>
-        <translation type="unfinished">Name:</translation>
+        <translation type="unfinished">Tên:</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="102"/>
         <source>Clear history</source>
-        <translation type="unfinished">Clear history</translation>
+        <translation type="unfinished">Xóa lịch sử</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="89"/>
@@ -1195,22 +1195,22 @@
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="154"/>
         <source>查找服务器...</source>
-        <translation type="unfinished">Find server....</translation>
+        <translation type="unfinished">Tìm Server...</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="203"/>
         <source>Connect</source>
-        <translation type="unfinished">Connect</translation>
+        <translation type="unfinished">Kết nối</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="216"/>
         <source>Reconnection</source>
-        <translation type="unfinished">Reconnection</translation>
+        <translation type="unfinished">Kết nối lại</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.ui" line="190"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation type="unfinished">Hủy bỏ</translation>
     </message>
     <message>
         <location filename="../src/dialog/connectiondialog.cpp" line="68"/>
@@ -1220,7 +1220,7 @@
     <message>
         <location filename="../src/dialog/connectiondialog.cpp" line="68"/>
         <source>The user name can not be empty!</source>
-        <translation type="unfinished">The user name can not be empty!</translation>
+        <translation type="unfinished">tên người chơi không được bỏ trống!</translation>
     </message>
 </context>
 <context>
@@ -1939,17 +1939,17 @@
     <message>
         <location filename="../src/dialog/choosegeneraldialog.cpp" line="244"/>
         <source>Free choose generals</source>
-        <translation type="unfinished">Free choose generals</translation>
+        <translation type="unfinished">Chọn Tướng tự do</translation>
     </message>
     <message>
         <location filename="../src/dialog/choosegeneraldialog.cpp" line="273"/>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation type="unfinished">Xác nhận</translation>
     </message>
     <message>
         <location filename="../src/dialog/choosegeneraldialog.cpp" line="276"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation type="unfinished">Hủy bỏ</translation>
     </message>
 </context>
 <context>
@@ -2013,7 +2013,7 @@
     <message>
         <location filename="../src/dialog/generaloverview.ui" line="68"/>
         <source>MaxHP</source>
-        <translation type="unfinished">Máu tối đa</translation>
+        <translation type="unfinished">HP</translation>
     </message>
     <message>
         <location filename="../src/dialog/generaloverview.ui" line="73"/>
@@ -3340,7 +3340,7 @@
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="17"/>
         <source>Assign roles and seats</source>
-        <translation type="unfinished">Assign roles and seats</translation>
+        <translation type="unfinished">Chỉ định vai trò và ghế</translation>
     </message>
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="53"/>
@@ -3365,28 +3365,28 @@
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="58"/>
         <source>Move up</source>
-        <translation type="unfinished">Move up</translation>
+        <translation type="unfinished">Di chuyển lên</translation>
     </message>
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="59"/>
         <source>Move down</source>
-        <translation type="unfinished">Move down</translation>
+        <translation type="unfinished">Di chuyển xuống</translation>
     </message>
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="60"/>
         <source>OK</source>
-        <translation type="unfinished">OK</translation>
+        <translation type="unfinished">Xác Nhận</translation>
     </message>
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="61"/>
         <source>Cancel</source>
-        <translation type="unfinished">Cancel</translation>
+        <translation type="unfinished">Hủy bỏ</translation>
     </message>
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="113"/>
         <location filename="../src/dialog/roleassigndialog.cpp" line="129"/>
         <source>Warning</source>
-        <translation type="unfinished">Warning</translation>
+        <translation type="unfinished">Cảnh báo</translation>
     </message>
     <message>
         <location filename="../src/dialog/roleassigndialog.cpp" line="113"/>
@@ -3495,7 +3495,7 @@
     <message>
         <location filename="../src/ui/roomscene.cpp" line="270"/>
         <source>QSanguosha</source>
-        <translation type="unfinished">Tam Quốc Sát</translation>
+        <translation type="unfinished"> </translation>
     </message>
     <message>
         <location filename="../src/ui/roomscene.cpp" line="323"/>
