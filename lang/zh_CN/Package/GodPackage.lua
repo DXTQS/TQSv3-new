@@ -38,7 +38,7 @@ return {
 	["#shenzhugeliang"] = "Xích Bích Yêu Thuật Sư",--赤壁的妖术师
 	["shenzhugeliang"] = "Thần Gia Cát Lượng",--神诸葛亮
 	["qixing"] = "Thất Tinh",--七星
-	[":qixing"] = "Vào đầu lượt. Gia Cát rút ra thêm 7 lá. Tak chọn 7 lá và để chúng xuống. Đây là những ngôi sao, phần còn lại lấy lên tay. Sau giai đoạn rút bài, Gia Cát có thể trao đổi bất kì bài trên tay với 7 ngôi sao của mình",--你的起始手牌数+7。分发起始手牌后，你将其中七张扣置于武将牌旁，称为“星”。摸牌阶段结束时，你可以将至少一张手牌与等量的“星”交换。
+	[":qixing"] = "Một lần đầu game. Gia Cát rút ra thêm 7 lá. Tak chọn 7 lá và để chúng xuống. Đây là những ngôi sao, phần còn lại lấy lên tay. Sau giai đoạn rút bài, Gia Cát có thể trao đổi bất kì bài trên tay với 7 ngôi sao của mình",--你的起始手牌数+7。分发起始手牌后，你将其中七张扣置于武将牌旁，称为“星”。摸牌阶段结束时，你可以将至少一张手牌与等量的“星”交换。
 	["stars"] = "Tinh",--星
 	["@qixing-exchange"] = "Hãy chọn bài dùng để trao đổi",--请选择牌用于交换
 	["~qixing"] = "Lựa chọn bài để thành ngôi sao",--选择的牌将成为“星”
@@ -72,7 +72,7 @@ return {
 	["wumou"] = "Vô Mưu",--无谋
 	[":wumou"] = "Khi Lữ Bố sử dụng công cụ không trì hoãn. Hắn tak phải loại bỏ 1 Rage Token or mất 1 máu",--锁定技。每当你使用一张非延时锦囊牌时，你须选择一项：失去1点体力，或弃一枚“暴怒”标记。
 	["wuqian"] = "Vô Tiền",--无前
-	[":wuqian"] = "Trong lượt của mình. Lữ Bố có thể sử dụng 2 Rage Tokens và chọn 1 người chơi. Trong phần còn lại của lượt, áo giáp của mục tiêu sẽ bị bỏ qua và xem như quyết đấu với mục tiêu",--出牌阶段，你可以弃两枚“暴怒”标记并选择一名其他角色：若如此做，你拥有“无双”且该角色防具无效，直到回合结束。
+	[":wuqian"] = "Trong lượt của mình. Lữ Bố có thể sử dụng 2 Rage Tokens và chọn 1 người chơi. Lữ Bố chọn 1 trong 2 hành động Sát or Quyết Đấu. Người bị Sát phải dùng 2 Ngự or bị Quyết Đấu phải dùng 2 Sát ",--出牌阶段，你可以弃两枚“暴怒”标记并选择一名其他角色：若如此做，你拥有“无双”且该角色防具无效，直到回合结束。
 	["shenfen"] = "Thần Phẫn",--神愤
 	[":shenfen"] = "Giai Đoạn Kĩ. Lữ Bố có thể hủy 6 Rage Tokens. Lữ Bố gây 1 đơn vị thiệt hại cho mỗi người chơi khác. Sau đó trang bị của mỗi người chơi bị loại bỏ. Tiếp theo mỗi người chơi phải loại bỏ 4 thẻ bài. Cuối cùng Lữ Bố úp mặt tướng mình.",--阶段技。你可以弃六枚“暴怒”标记：若如此做，所有其他角色受到1点伤害，弃置装备区的所有牌，弃置四张手牌，然后你将武将牌翻面。
 	["$ShenfenAnimate"] = "image=image/animate/shenfen.png",
