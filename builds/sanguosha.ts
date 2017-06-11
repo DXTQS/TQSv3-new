@@ -3456,7 +3456,7 @@
     <message>
         <location filename="../src/server/room.cpp" line="5954"/>
         <source>&lt;font color=#EEB422&gt;The network delay of player &lt;b&gt;%1&lt;/b&gt; is %2 milliseconds.&lt;/font&gt;</source>
-        <translation type="unfinished">&lt;font color=#EEB422&gt;Thằng này bị trễ mạng &lt;b&gt;%1&lt;/b&gt; is %2 mili giây.&lt;/font&gt;</translation>
+        <translation type="unfinished">&lt;font color=#EEB422&gt; Độ trễ mạng của thằng &lt;b&gt;%1&lt;/b&gt; là %2 milliseconds.&lt;/font&gt;</translation>
     </message>
 </context>
 <context>
