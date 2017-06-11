@@ -16,7 +16,7 @@ StartScene::StartScene()
     //the website URL
     QFont website_font(Config.SmallFont);
     website_font.setStyle(QFont::StyleItalic);
-    QGraphicsSimpleTextItem *website_text = addSimpleText("Các Server hiện có: \n01 - 113.161.71.79 (Kha) \n02 - 116.102.150.241 (Hoàng)", website_font);
+    QGraphicsSimpleTextItem *website_text = addSimpleText("Các Server hiện có: \n01 - 113.161.71.79 (Kha) \n02 - 116.106.0.95 (Hoàng)", website_font);
     website_text->setBrush(Qt::white);
     website_text->setPos(Config.Rect.width() / 2 - website_text->boundingRect().width(),
         Config.Rect.height() / 2 - website_text->boundingRect().height());
