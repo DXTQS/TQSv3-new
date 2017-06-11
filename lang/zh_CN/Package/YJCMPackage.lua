@@ -17,7 +17,7 @@ return {
 	["designer:yujin"] = "城管无畏",
 	["illustrator:yujin"] = "Yi章",
 	["yizhong"] = "Nghị Trùng",--毅重
-	[":yizhong"] = "Tọa Định Kĩ. Nếu bạn không trang bị phòng cụ, bạn được vô hiệu hóa Sát đen.",--锁定技。若你的装备区没有防具牌，黑色【杀】对你无效。
+	[":yizhong"] = "Tỏa Định Kĩ. Nếu bạn không trang bị phòng cụ, bạn được vô hiệu hóa Sát đen.",--锁定技。若你的装备区没有防具牌，黑色【杀】对你无效。
 
 	["#fazheng"] = "Thục Hán Đích Thụ Dực",--蜀汉的辅翼
 	["fazheng"] = "Pháp Chính",--法正

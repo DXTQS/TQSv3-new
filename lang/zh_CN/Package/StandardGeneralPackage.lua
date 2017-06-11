@@ -191,14 +191,14 @@ return {
 	["keji"] = "Khắc Kỉ", --克己
 	[":keji"] = "Nếu không dùng lá 【Sát】 trong lượt，Có thể bỏ qua giai đoạn bỏ bài.", --若你未于出牌阶段内使用或打出【杀】，你可以跳过弃牌阶段。
 	["qinxue"] = "Cần Học", --勤学
-	[":qinxue"] = "Giác Tỉnh Kỹ. Đầu giai đoạn chuẩn bị, Nếu số bài trên tay nhiều hơn số lượng máu là 3 (sẽ là 2 nếu có từ 7 người chơi trở lên) bạn nhận được kỹ năng “Công Tâm”.", --觉醒技。准备阶段开始时，若你的手牌数比体力值多3（七人及以上游戏为2）或更多，你失去1点体力上限，然后获得“攻心”。
+	[":qinxue"] = "Giác Tỉnh Kĩ. Đầu giai đoạn chuẩn bị, Nếu số bài trên tay nhiều hơn số lượng máu là 3 (sẽ là 2 nếu có từ 7 người chơi trở lên) bạn nhận được kỹ năng “Công Tâm”.", --觉醒技。准备阶段开始时，若你的手牌数比体力值多3（七人及以上游戏为2）或更多，你失去1点体力上限，然后获得“攻心”。
 	["$QinxueAnimate"] = "image=image/animate/qinxue.png",
 	["#QinxueWake"] = "%from Có số bài nhiều hơn số máu là %arg， Kích hoạt kỹ năng “%arg2”",
 
 	["#zhouyu"] = "Đại Đô Đốc", --大都督
 	["zhouyu"] = "Chu Du", --周瑜
 	["yingzi"] = "Anh Tư", -- 英姿
-	[":yingzi"] = "Tỏa Định Kỹ. Giai đoạn rút bài, được rút thêm một lá. Giới hạn trữ bài bằng giới hạn máu.",
+	[":yingzi"] = "Tỏa Định Kĩ. Giai đoạn rút bài, được rút thêm một lá. Giới hạn trữ bài bằng giới hạn máu.",
 	["fanjian"] = "Phản Gián", --反间
 	[":fanjian"] = "Giai Đoạn Kĩ. Chọn một chất trên tay và đưa người chơi khác, người đó phải chọn: hoặc là mất một máu hoặc cho xem tất cả bài trên tay và bỏ các thẻ cùng chất với thẻ bạn đưa.", --阶段技。你可以选择一种花色并交给一名其他角色一张该花色的手牌，然后该角色选择一项：展示所有手牌并弃置所有该花色的牌，或失去1点体力。
 	["fanjian_discard:prompt"] = "Hiện tất cả bài trên tay và chọn bỏ %arg ",
