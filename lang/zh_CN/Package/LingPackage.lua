@@ -1,48 +1,48 @@
 -- translation for Ling Package
 
 return {
-	["ling"] = "翼包",
+	["ling"] = "Dực Bao", --翼包
 
 	["neo_xiahoudun"] = "Hạ Hầu Đôn Dực",--夏侯惇-翼
 	["&neo_xiahoudun"] = "Hạ Hầu Đôn",--夏侯惇
-	["neoganglie"] = "刚烈",
-	[":neoganglie"] = "每当你受到伤害后，你可以进行一次判定，若判定结果不为<font color=\"red\">♥</font>，则你选择一项：令伤害来源弃置两张手牌，或对伤害来源造成1点伤害。",
-	["neoganglie:throw"] = "令伤害来源弃置两张手牌",
-	["neoganglie:damage"] = "对伤害来源造成1点伤害",
+	["neoganglie"] = "Cương Liệt", --刚烈
+	[":neoganglie"] = "Bất cứ khi nào bạn nhận sát thương, bạn có thể lật phán xét，nếu không phải Cơ，bạn có thể chọn: <br />1. Bỏ 2 thẻ trên tay của đối phương.<br />2.Gây 1 điểm sát thương cho đối phương.", --每当你受到伤害后，你可以进行一次判定，若判定结果不为 Cơ，则你选择一项：令伤害来源弃置两张手牌，或对伤害来源造成1点伤害。
+	["neoganglie:throw"] = "Bỏ 2 thẻ bài trên tay đối phương", --令伤害来源弃置两张手牌
+	["neoganglie:damage"] = "Gây 1 sát thương cho đối phương", --对伤害来源造成1点伤害
 
-	["neo_xuchu"] = "许褚-翼",
-	["&neo_xuchu"] = "许褚",
-	["neoluoyi"] = "裸衣",
-	[":neoluoyi"] = "<font color=\"green\"><b>出牌阶段限一次，</b></font>你可以弃置一张装备牌，若如此做，本回合你使用【杀】或【决斗】对目标角色造成伤害时，此伤害+1。",
-	["#LuoyiBuff"] = "%from 的“<font color=\"yellow\"><b>裸衣</b></font>”效果被触发，伤害从 %arg 点增加至 %arg2 点",
+	["neo_xuchu"] = "Hứa Trữ - Dực", --许褚-翼
+	["&neo_xuchu"] = "Hứa Trữ", --许褚
+	["neoluoyi"] = "Lỏa Y", --裸衣
+	[":neoluoyi"] = "Hạn Định Kĩ. Bạn có thể bỏ 1 trang bị, nếu làm vậy, bạn được tăng +1 sát thương khi dùng<b>【Sát】</b> và <b>【Quyết Đấu】</b> lên mục tiêu cho đến hết lượt hành động.",
+	["#LuoyiBuff"] = "%from đã phát động “<font color=\"yellow\"><b>Lỏa Y</b></font>”，Sát thương từ %arg tăng lên thành %arg2 điểm",
 
-	["neo_caoren"] = "曹仁-翼",
-	["&neo_caoren"] = "曹仁",
-	["neojushou"] = "据守",
-	[":neojushou"] = "结束阶段开始时，你可以摸X+2张牌，然后将你的武将牌翻面。（X为你已损失的体力值）",
+	["neo_caoren"] = "Tào Nhân - Dực", --曹仁-翼
+	["&neo_caoren"] = "Tào Nhân", --曹仁
+	["neojushou"] = "Cư Thủ", --据守
+	[":neojushou"] = "Cuối lượt hành động, bạn có thể rút <b>x+2</b> thẻ bài, và sau đó úp mặt tướng (x là số máu bạn đã mất).",
 
-	["neo_guanyu"] = "关羽-翼",
-	["&neo_guanyu"] = "关羽",
+	["neo_guanyu"] = "Quan Vũ - Dực", --关羽-翼
+	["&neo_guanyu"] = "Quan Vũ",
 	["designer:neo_guanyu"] = "官方，凌天翼",
-	["yishi"] = "义释",
-	[":yishi"] = "每当你使用【杀】对目标角色造成伤害时，若该角色区域内有牌，你可以防止此伤害，然后获得其区域内的一张牌。",
+	["yishi"] = "Nghĩa Thích", --义释
+	[":yishi"] = "Bất cứ khi nào bạn gây sát thương bằng<b>【Sát】</b> lên mục tiêu，thay vì gây sát thương bạn có thể chọn lấy bất kỳ thẻ nào của người đó.",
 	["#Yishi"] = "%from 发动了“%arg”，防止了对 %to 的伤害",
 
-	["neo_zhangfei"] = "张飞-翼",
-	["&neo_zhangfei"] = "张飞",
+	["neo_zhangfei"] = "Trương Phi - Dực", --张飞-翼
+	["&neo_zhangfei"] = "Trương Phi",
 	["designer:neo_zhangfei"] = "官方，凌天翼",
-	["tannang"] = "探囊",
-	[":tannang"] = "锁定技。你与其他角色的距离-X。（X为你已损失的体力值）",
+	["tannang"] = "Tham Nang", --探囊
+	[":tannang"] = "Tỏa Định Kĩ. khoảng cách từ bạn đến những người chơi khác là -x.（X là số máu đã mất)",
 
-	["neo_zhaoyun"] = "赵云-翼",
-	["&neo_zhaoyun"] = "赵云",
+	["neo_zhaoyun"] = "Triệu Vân - Dực", --赵云-翼
+	["&neo_zhaoyun"] = "Triệu Vân",
 	["designer:neo_zhaoyun"] = "官方，凌天翼",
 
-	["neo_zhouyu"] = "周瑜-翼",
-	["&neo_zhouyu"] = "周瑜",
-	["neoyingzi"] = "英姿",
-	[":neoyingzi"] = "摸牌阶段，你可以额外摸一张牌。",
-	["neofanjian"] = "反间",
+	["neo_zhouyu"] = "Chu Du - Dực", --周瑜-翼
+	["&neo_zhouyu"] = "Chu Du",
+	["neoyingzi"] = "Anh Tư", --英姿
+	[":neoyingzi"] = "Trong giai đoạn rút bài, bạn có thể rút thêm 1 lá.",
+	["neofanjian"] = "Phản Gián", --反间
 	[":neofanjian"] = "<font color=\"green\"><b>出牌阶段限一次，</b></font>你可以选择一张手牌并令一名其他角色选择一种花色，然后该角色获得该牌并展示之。若此牌花色与该角色所选花色不同，你对其造成1点伤害。",
 
 	["neo_gongsunzan"] = "公孙瓒-翼",
