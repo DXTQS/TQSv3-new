@@ -89,8 +89,8 @@ return {
 	[":longhun"] = " Triệu Vân có thể sử dụng X thẻ cùng chất (X là số máu của Triệu Vân còn lại):<br/>" ..
 				   "Cơ: <b>【Đào】</b><br/>" ..
 				   "Rô: <b>【Hỏa Sát】</b><br/>" ..
-				   "Chuồng: <b>【Vô Giải Khả Kích】</b><br/>" ..
-				   "Bích: <b>【Tránh】</b>.",
+				   "Bích: <b>【Vô Giải Khả Kích】</b><br/>" ..
+				   "Chuồng: <b>【Tránh】</b>.",
 				   --你可以将X张同花色的牌按以下规则使用或打出：红桃当【桃】；方块当火【杀】；黑桃当【无懈可击】；梅花当【闪】。（X为你的体力值且至少为1）
 
 	["#shensimayi"] = "Tấn Quốc Chi Tổ",--晋国之祖
