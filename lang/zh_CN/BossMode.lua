@@ -1,7 +1,7 @@
 -- translation for Boss Mode
 
 return {
-	["BossMode"] = "Chế độ Chủ Quân",--闯关模式
+	["BossMode"] = "Chế độ Quỷ Môn Quan",--闯关模式
 	["#BossTurnCount"] = "%from võ tướng %arg bắt đầu", 
 
 	["#boss_chi"] = "Boss Lv.1",
