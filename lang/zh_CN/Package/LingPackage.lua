@@ -3,7 +3,7 @@
 return {
 	["ling"] = "Dực Bao", --翼包
 
-	["neo_xiahoudun"] = "Hạ Hầu Đôn Dực",--夏侯惇-翼
+	["neo_xiahoudun"] = "Hạ Hầu Đôn - Dực",--夏侯惇-翼
 	["&neo_xiahoudun"] = "Hạ Hầu Đôn",--夏侯惇
 	["neoganglie"] = "Cương Liệt", --刚烈
 	[":neoganglie"] = "Bất cứ khi nào bạn nhận sát thương, bạn có thể lật phán xét，nếu không phải Cơ，bạn có thể chọn: <br />1. Bỏ 2 thẻ trên tay của đối phương.<br />2.Gây 1 điểm sát thương cho đối phương.", --每当你受到伤害后，你可以进行一次判定，若判定结果不为 Cơ，则你选择一项：令伤害来源弃置两张手牌，或对伤害来源造成1点伤害。
