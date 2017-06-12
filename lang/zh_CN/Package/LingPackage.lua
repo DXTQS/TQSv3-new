@@ -43,13 +43,13 @@ return {
 	["neoyingzi"] = "Anh Tư", --英姿
 	[":neoyingzi"] = "Trong giai đoạn rút bài, bạn có thể rút thêm 1 lá.",
 	["neofanjian"] = "Phản Gián", --反间
-	[":neofanjian"] = "<font color=\"green\"><b>出牌阶段限一次，</b></font>你可以选择一张手牌并令一名其他角色选择一种花色，然后该角色获得该牌并展示之。若此牌花色与该角色所选花色不同，你对其造成1点伤害。",
+	[":neofanjian"] = "Hạn Định Kĩ. cho 1 người khác chọn 1 chất, sau đó người đó lấy 1 lá bài trên tay Chu Du và lật lên. Nếu chất của lá bài khác với chất đã chọn, người đó nhận 1 thiệt hại từ bạn.",
 
-	["neo_gongsunzan"] = "公孙瓒-翼",
-	["&neo_gongsunzan"] = "公孙瓒",
+	["neo_gongsunzan"] = "Công Tôn Toản - Dực", --公孙瓒-翼
+	["&neo_gongsunzan"] = "Công Tôn Toản",
 	["cv:neo_gongsunzan"] = "桃花僧",
 	["illustrator:neo_gongsunzan"] = "Vincent",
-	["zhulou"] = "筑楼",
-	[":zhulou"] = "结束阶段开始时，你可以摸两张牌，然后选择一项：失去1点体力，或弃置一张武器牌。",
-	["@zhulou-discard"] = "请弃置一张武器牌",
+	["zhulou"] = "Trúc Lâu", --筑楼
+	[":zhulou"] = "Cuối lượt hành động, bạn có thể rút 2 lá, rồi chọn:<br />1. Mất 1 máu.<br />2. Hủy 1 trang bị vũ khí.", -- 结束阶段开始时，你可以摸两张牌，然后选择一项：失去1点体力，或弃置一张武器牌。
+	["@zhulou-discard"] = "Hãy chọn hủy 1 thẻ vũ khí", --请弃置一张武器牌
 }
