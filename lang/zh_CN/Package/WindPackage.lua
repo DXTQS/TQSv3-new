@@ -31,7 +31,7 @@ return {
 	["weiyan"] = "Ngụy Diên", --魏延
 	["illustrator:weiyan"] = "SoniaTang",
 	["kuanggu"] = "Cuồng Cốt", --狂骨
-	[":kuanggu"] = "Tỏa Định Kĩ. Đơn giản lắm: Gây 1 sát thương, hồi lại 1 máu, EZ.",
+	[":kuanggu"] = "Tỏa Định Kĩ. Đơn giản lắm: Gây 1 sát thương cho người chơi trong tầm 1, hồi lại 1 máu.",
 
 	["#zhangjiao"] = "Thiên Công Tướng Quân",
 	["zhangjiao"] = "Trương Giác", --张角

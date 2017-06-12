@@ -24,7 +24,7 @@ return {
 	["designer:fazheng"] = "Michael_Lee",
 	["illustrator:fazheng"] = "雷没才",
 	["enyuan"] = "Ân Oán",--恩怨
-	[":enyuan"] = "Mỗi khi bạn nhận được từ 2 lá trở lên từ người chơi khác, bạn được rút thêm 1 lá. Mỗi khi bạn nhận 1 sát thương: bạn có thể cho nguồn sát thương chọn đưa bạn 1 lá bài hoặc mất 1 máu.",--每当你获得一名其他角色的两张或更多的牌后，你可以令其摸一张牌。每当你受到1点伤害后，你可以令伤害来源选择一项：交给你一张手牌，或失去1点体力。
+	[":enyuan"] = "Mỗi khi bạn nhận được từ 2 lá trở lên từ người chơi khác, bạn được cho họ rút 1 lá. Mỗi khi bạn nhận 1 sát thương: bạn có thể cho nguồn sát thương chọn đưa bạn 1 lá bài hoặc mất 1 máu.",--每当你获得一名其他角色的两张或更多的牌后，你可以令其摸一张牌。每当你受到1点伤害后，你可以令伤害来源选择一项：交给你一张手牌，或失去1点体力。
 	["EnyuanGive"] = "请交给 %dest %arg 张手牌",--请交给 %dest %arg 张手牌
 	["xuanhuo"] = "Huyễn Hoặc",--眩惑
 	[":xuanhuo"] = "Đầu lượt, bạn có thể bỏ qua giai đoạn rút bài rồi chọn 1 người chơi khác, người chơi đó được rút 2 lá và dùng Sát lên một người trong tầm, nếu không phải đưa bạn 2 lá bài.",--摸牌阶段开始时，你可以放弃摸牌并选择一名其他角色：若如此做，该角色摸两张牌，然后该角色可以对其攻击范围内由你选择的一名角色使用一张【杀】，否则令你获得其两张牌。

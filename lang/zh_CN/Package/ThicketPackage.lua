@@ -46,7 +46,7 @@ return {
 				  --锁定技。【南蛮入侵】对你无效。其他角色使用的未转化的【南蛮入侵】在结算完毕后置入弃牌堆时，你获得之。
 	["lieren"] = "Liệt Nhận",--烈刃
 	[":lieren"] = "Nếu bạn dùng Sát thành công lên một người chơi,".. 
-				  "\nbạn được đấu điểm với người đó: nếu thắng, bạn được rút 1 lá.",
+				  "\nbạn được đấu điểm với người đó: nếu thắng, bạn được rút 1 lá của người đó.",
 				 --每当你使用【杀】对目标角色造成伤害后，你可以与该角色拼点：若你赢，你获得其一张牌。
 
 	["#sunjian"] = "Vũ Liệt Đế",--武烈帝

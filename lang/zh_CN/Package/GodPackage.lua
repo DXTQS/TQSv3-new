@@ -38,7 +38,7 @@ return {
 	["#shenzhugeliang"] = "Xích Bích Yêu Thuật Sư",--赤壁的妖术师
 	["shenzhugeliang"] = "Thần Gia Cát Lượng",--神诸葛亮
 	["qixing"] = "Thất Tinh",--七星
-	[":qixing"] = "Một lần đầu game. Gia Cát rút ra thêm 7 lá. Tak chọn 7 lá và để chúng xuống. Đây là những ngôi sao, phần còn lại lấy lên tay. Sau giai đoạn rút bài, Gia Cát có thể trao đổi bất kì bài trên tay với 7 ngôi sao của mình",--你的起始手牌数+7。分发起始手牌后，你将其中七张扣置于武将牌旁，称为“星”。摸牌阶段结束时，你可以将至少一张手牌与等量的“星”交换。
+	[":qixing"] = "Một lần đầu trận. Gia Cát rút ra thêm 7 lá. Tak chọn 7 lá và để chúng xuống. Đây là những ngôi sao, phần còn lại lấy lên tay. Sau giai đoạn rút bài, Gia Cát có thể trao đổi bất kì bài trên tay với 7 ngôi sao của mình",--你的起始手牌数+7。分发起始手牌后，你将其中七张扣置于武将牌旁，称为“星”。摸牌阶段结束时，你可以将至少一张手牌与等量的“星”交换。
 	["stars"] = "Tinh",--星
 	["@qixing-exchange"] = "Hãy chọn bài dùng để trao đổi",--请选择牌用于交换
 	["~qixing"] = "Lựa chọn bài để thành ngôi sao",--选择的牌将成为“星”

@@ -12,7 +12,7 @@ return {
 	["jianxiong:obtain"] = "Lấy thẻ bài đã gây sát thương cho bản thân", --获得对你造成伤害的牌
 	["jianxiong:draw"] = "Rút một thẻ từ chồng bài", --摸一张牌
 	["hujia"] = "Hộ Giá",--护驾 
-	[":hujia"] = "Kỹ năng Quân chủ. Bất cứ khi nào cần dùng lá 【Ngự】，thì những người cùng Phe có thể dùng lá 【Ngự】 thay cho Tào Tháo", --主公技。每当你需要使用或打出一张【闪】时，你可以令其他魏势力角色打出一张【闪】，视为你使用或打出之。
+	[":hujia"] = "Chủ Công Kĩ. Bất cứ khi nào cần dùng lá 【Ngự】，thì những người cùng Phe có thể dùng lá 【Ngự】 thay cho Tào Tháo", --主公技。每当你需要使用或打出一张【闪】时，你可以令其他魏势力角色打出一张【闪】，视为你使用或打出之。
 	["@hujia-jink"] = "Đưa ra một thẻ 【Ngự】 %src ''Hộ Giá''", --请打出一张【闪】响应 %src “护驾”
 
 	["#simayi"] = "Lang Cố Chi Quỷ", --狼顾之鬼
@@ -48,7 +48,7 @@ return {
 	["tiandu"] = "Thiên Khiển", --天妒
 	[":tiandu"] = "Khi bạn lật phán xét, có thể giữ lại lá phán xét đó.", --每当你的判定牌生效后，你可以获得之。
 	["yiji"] = "Di Kế", --遗计
-	[":yiji"] = "For every unit of damage that Guo Jia recieves, he can draw two cards and choose up to two players and put any hand cards on their general cards face down.  They draw these cards during their next drawing phase.  ", --每当你受到1点伤害后，你可以摸两张牌，然后你可以分别在至多两名其他角色的武将牌旁扣置一至两张手牌：若如此做，这些角色的摸牌阶段开始时，其获得所有“遗计牌”。
+	[":yiji"] = "Mỗi khi nhận 1 thiệt hại, bạn có thể rút 2 lá và chọn tối đa 2 người chơi khác rồi đặt 2 lá này lên tướng của họ, rồi họ rút những lá này vào lượt rút bài của họ. ", --每当你受到1点伤害后，你可以摸两张牌，然后你可以分别在至多两名其他角色的武将牌旁扣置一至两张手牌：若如此做，这些角色的摸牌阶段开始时，其获得所有“遗计牌”。
 	["@yiji"] = "Bạn có thể chọn tối đa 2 người chơi để thiết lập \"Di Kế\".", --你可以选择至多两名角色扣置“遗计牌”
 	["YijiGive"] = "请在 %dest 武将牌旁扣置至多 %arg 张手牌",
 	["~yiji"] = "Chọn một hoặc 2 nhân vật và ấn \"OK\".",
@@ -84,7 +84,7 @@ return {
 	["@rende-give"] = "Bạn có thể kích hoạt \"Nhân Đức\".", -- 你可以发动“仁德”
 	["~rende"] = "chon ít nhất 1 lá trên tay --> Chọn một người chơi khác --> Nhấn \"OK\".", --选择至少一张手牌→选择一名其他角色→点击确定
 	["jijiang"] = "Khích Tướng", --激将
-	[":jijiang"] = "Kỹ Năng Quân Chủ. Nếu bạn cần sử dụng lá 【Sát】, tất cả người chơi cùng nước sẽ được dùng lá 【Sát】 thay cho bạn.", --主公技。每当你需要使用或打出一张【杀】时，你可以令其他蜀势力角色打出一张【杀】，视为你使用或打出之。
+	[":jijiang"] = "Chủ Công Kĩ. Nếu bạn cần sử dụng lá 【Sát】, tất cả người chơi cùng nước sẽ được dùng lá 【Sát】 thay cho bạn.", --主公技。每当你需要使用或打出一张【杀】时，你可以令其他蜀势力角色打出一张【杀】，视为你使用或打出之。
 	["@jijiang-slash"] = "Đưa ra một thẻ 【杀】 %src “Khích Tướng”", --请打出一张【杀】响应 %src “激将”
 
 	["#guanyu"] = "Mĩ Nhiêm Công", --美髯公
@@ -95,8 +95,8 @@ return {
 	["yijue"] = "Nghĩa Tuyệt", --义绝
 	[":yijue"] = "Giai Đoạn Kĩ. Bạn có thể chọn tỉ thí với một người chơi khác:" .. --阶段技。你可以与一名其他角色拼点：
 				 "Nếu bạn thắng, người đó không thể sử dụng kĩ năng hay bài cho tới hết lượt." .. --若你赢，该角色不能使用或打出手牌且其非锁定技无效，直到回合结束；
-				 "Nếu bạn thua, bạn có thể chọn một người chơi và cho người đó hồi phúc 1 máu.", --若你没赢，你可以令该角色回复1点体力。
-	["yijue:recover"] = "Chọn một người chơi để hồi phục 1 máu.", --令目标角色回复1点体力
+				 "Nếu bạn thua, bạn có thể cho người đó hồi 1 máu.", --若你没赢，你可以令该角色回复1点体力。
+	["yijue:recover"] = "Cho người chơi hồi 1 máu.", --令目标角色回复1点体力
 
 	["#zhangfei"] = "Vạn Phu Bất Đương", --万夫不当
 	["zhangfei"] = "Trương Phi", --张飞
@@ -104,7 +104,7 @@ return {
 	["paoxiao"] = "Gào Thét", --咆哮
 	[":paoxiao"] = "Ngoài lượt hành động, Có thể dùng 【Sát】 không hạn chế.", --出牌阶段，你使用【杀】无次数限制。
 	["tishen"] = "Thế Thân",
-	[":tishen"] = "Hạn Định Kỹ. Một lần duy nhất，bạn có thể lấy lại lương máu mà bạn đã mất ở lượt hành động trước nếu lượng máu hiện tại thấp hơn giới hạn máu," ..
+	[":tishen"] = "Hạn Định Kĩ. Một lần duy nhất，bạn có thể lấy lại lương máu mà bạn đã mất ở lượt hành động trước nếu lượng máu hiện tại thấp hơn giới hạn máu," ..
 				  "và bạn được tăng 1 sát thương và rút 1 lá bài.", --限定技。准备阶段开始时，若你的体力值小于上回合结束时的体力值，你可以回复至上回合结束时的体力值，然后你每以此法回复1点体力，你摸一张牌。
 	["$TishenAnimate"] = "image=image/animate/tishen.png",
 
@@ -113,7 +113,7 @@ return {
 	["guanxing"] = "Quan Tinh", --观星
 	[":guanxing"] = "Đầu giai đoạn chuẩn bị, xem X lá trên đầu chồng bài (X là số người còn sống và tối đa là 5), sau đó sắp xếp tùy ý thứ tự và số lượng rồi đặt lên đầu chồng bài, những lá còn lại đặt dưới đáy chồng bài.", --准备阶段开始时，你可以观看牌堆顶的X张牌，然后将任意数量的牌置于牌堆顶，将其余的牌置于牌堆底。（X为存活角色数且至多为5）
 	["kongcheng"] = "Không Thành", --空城
-	[":kongcheng"] = "Tỏa Định Kỹ, khi không có bài trên tay, nếu là mục tiêu của lá 【Sát】 và 【Quyết Đấu】, vô hiệu hóa lá đó.", --锁定技。若你没有手牌，你不能被选择为【杀】或【决斗】的目标。
+	[":kongcheng"] = "Tỏa Định Kĩ, khi không có bài trên tay, nếu là mục tiêu của lá 【Sát】 và 【Quyết Đấu】, vô hiệu hóa lá đó.", --锁定技。若你没有手牌，你不能被选择为【杀】或【决斗】的目标。
 	["#GuanxingResult"] = "%from 的“<font color=\"yellow\"><b>观星</b></font>”结果：%arg 上 %arg2 下",
 	["$GuanxingTop"] = "Bài nằm trên đầu chồng bài：%card",
 	["$GuanxingBottom"] = "Bài nằm dưới đáy chồng bài：%card",
@@ -148,7 +148,7 @@ return {
 				 "- Nếu là lá cơ bản, bạn được đổi với một lá bất kỳ trên tay và bỏ lá vừa rút đó.", --每当你使用一张锦囊牌时，你可以展示牌堆顶的一张牌：若此牌为基本牌，你选择一项：将之置入弃牌堆，或用一张手牌替换之；若此牌不为基本牌，你获得之。
 	["@jizhi-exchange"] = "Sử dụng thẻ trên tay để thay thế kích hoạt của 【%arg】",
 	["qicai"] = "Kì Tài", --奇才
-	[":qicai"] = "Tỏa Định Kỹ.Có thể sử dụng thẻ công cụng không giới hạn khoảng cách.  Other players cannot remove Huang Yue Ying's armor unless they are within range to her.", --锁定技。你使用锦囊牌无距离限制。其他角色不能弃置你装备区的除坐骑牌外的牌。
+	[":qicai"] = "Tỏa Định Kĩ.Có thể sử dụng thẻ công cụng không giới hạn khoảng cách.  Other players cannot remove Huang Yue Ying's armor unless they are within range to her.", --锁定技。你使用锦囊牌无距离限制。其他角色不能弃置你装备区的除坐骑牌外的牌。
 
 	["#st_xushu"] = "Hóa Kiếm Vị Lê", --化剑为犁
 	["st_xushu"] = "Từ Thứ", --徐庶
@@ -171,7 +171,7 @@ return {
 	["zhiheng"] = "Chế Hành", --制衡
 	[":zhiheng"] = "Giai Đoạn Kĩ. Có thể bỏ ít nhất 1 lá sau đó rút lá mới.", --阶段技。你可以弃置至少一张牌：若如此做，你摸等量的牌。
 	["jiuyuan"] = "Cứu Viện", --救援
-	[":jiuyuan"] = "Kỹ năng quân chủ. Tỏa Định Kỹ. Trong trạng thái hấp hối, người chơi cùng phe khác sử dụng 【Đào】 để cứu, người đó được nhận thêm +1 sát thuơng.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
+	[":jiuyuan"] = "Chủ Công Kĩ. Tỏa Định Kĩ. Trong trạng thái hấp hối, người chơi cùng phe khác sử dụng 【Đào】 để cứu, người đó được nhận thêm +1 sát thuơng.", --主公技。锁定技。若你处于濒死状态，其他吴势力角色对你使用【桃】时，你回复的体力+1。
 	["#JiuyuanExtraRecover"] = "%from Đã phát động “%arg”，được cộng thêm <font color=\"yellow\"><b>1</b></font> sát thương.", --%from 的“%arg”被触发，将额外回复 <font color=\"yellow\"><b>1</b></font> 点体力
 
 	["#ganning"] = "Cẩm Phàm Du Hiệp", --锦帆游侠
@@ -180,7 +180,7 @@ return {
 	["qixi"] = "Kì Tập", --奇袭 
 	[":qixi"] = "Sử dụng thẻ sắc Đen như 【Qua Sông Đoạn Cầu】", --你可以将一张黑色牌当【过河拆桥】使用。
 	["fenwei"] = "Phấn Uy", --奋威
-	[":fenwei"] = "Hạn Định Kỹ. Khi người chơi khác sử dụng thẻ công cụ 2 mục tiêu trởi lên, bạn có thể ngăn chăn thẻ đó.", --限定技。每当一名角色的非延时锦囊牌指定了至少两名目标时，你可以令此牌对至少一名目标角色无效。
+	[":fenwei"] = "Hạn Định Kĩ. Khi người chơi khác sử dụng thẻ công cụ 2 mục tiêu trởi lên, bạn có thể ngăn chăn thẻ đó.", --限定技。每当一名角色的非延时锦囊牌指定了至少两名目标时，你可以令此牌对至少一名目标角色无效。
 	["@fenwei-card"] = "Bạn có thể kích phát \"Phấn Uy\".", --你可以发动“奋威
 	["~fenwei"] = "Chọn nhân vật bất kỳ → Nhấn \"OK\".", --选则任意名角色→点击确定
 	["$FenweiAnimate"] = "image=image/animate/fenwei.png",
@@ -209,7 +209,7 @@ return {
 	["kurou"] = "Khổ Nhục",
 	[":kurou"] = "Giai Đoạn Kĩ. Bạn có thể bỏ 1 lá bài rồi mất 1 máu.",--阶段技。你可以弃置一张牌：若如此做，你失去1点体力。
 	["zhaxiang"] = "Trá Hàng",
-	[":zhaxiang"] = "Tọa Định Kĩ. Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá SÁT, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
+	[":zhaxiang"] = "Tỏa Định Kĩ. Khi bạn bị mất một máu, nếu đang trong lượt của bạn, bạn được dùng thêm 1 lá Sát, và nếu dùng lá SÁT đỏ sẽ không giới hạn tầm và không thể TRÁNH。",
 
 	["#luxun"] = "Nho Sanh Hùng Tài",
 	["luxun"] = "Lục Tốn",
@@ -225,11 +225,11 @@ return {
 	["daqiao"] = "Đại Kiều",
 	["illustrator:daqiao"] = "DH",
 	["guose"] = "Quốc Sắc",
-	[":guose"] = "Giai Đoạn Kĩ. Bạn được dùng lá RÔ như LẠC BẤT TƯ THỤC, và có thể bỏ lá RÔ coi như LẠC BẤT TƯ THỤC đó để lấy 1 lá。",
+	[":guose"] = "Giai Đoạn Kĩ. Bạn được dùng lá Rô như Lạc Bất Tư Thục, và có thể bỏ lá Rô coi như Lạc Bất Tư Thục đó để lấy 1 lá。",
 	["liuli"] = "Lưu Li",
 	[":liuli"] = "Khi là mục tiêu của 【Sát】, bạn có thể bỏ 1 thẻ bài để chuyển đòn thẻ 【Sát】 sang một người chơi trong tầm đánh của mình.",
-	["~liuli"] = "Chọn 1 lá → chọn 1 người chơi → Bấm OK",
-	["@liuli"] = "%src sử dụng ”",
+	["~liuli"] = "Chọn 1 lá → chọn 1 người chơi → Bấm OK ",
+	["@liuli"] = "%src là mục tiêu của lá Sát, bạn hãy bỏ 1 lá để dùng Lưu Li",
 
 	["#sunshangxiang"] = "Cung Yêu Cơ",
 	["sunshangxiang"] = "Tôn Thượng Hương",
@@ -243,8 +243,8 @@ return {
 	["lvbu"] = "Lữ Bố",
 	["illustrator:lvbu"] = "张帅",
 	["wushuang"] = "Vô Song",
-	[":wushuang"] = "Toả Định Kỹ, khi dùng 【Sát】 lên một người chơi bắt buộc mục tiêu phải dùng 2 thẻ 【Tránh】 nếu muốn vô hiệu thẻ 【Sát】 đó;" ..
-					"\nToả Định Kỹ, khi 【Quyết Đấu】 buộc mục tiêu phải dùng 2 thẻ 【Sát】 cho mỗi lượt.",
+	[":wushuang"] = "Tỏa Định Kĩ. khi dùng 【Sát】 lên một người chơi bắt buộc mục tiêu phải dùng 2 thẻ 【Tránh】 nếu muốn vô hiệu thẻ 【Sát】 đó;" ..
+					"\nkhi 【Quyết Đấu】 buộc mục tiêu phải dùng 2 thẻ 【Sát】 cho mỗi lượt.",
 	["@wushuang-slash-1"] = "%src cùng bạn 【Quyết Đấu】, bạn phải bỏ 2 thẻ 【Sát】",
 	["@wushuang-slash-2"] = "%src cùng bạn 【Quyết Đấu】, hãy bỏ tiếp 1 thẻ 【Sát】",
 	["liyu"] = "Lợi Ngự",
@@ -259,7 +259,7 @@ return {
 	[":chuli"] = "Giai Đoạn Kĩ. Nếu bạn có 1 lá, bạn được chọn một người chơi mỗi nước, rồi bạn và những người chơi đó bỏ hết bài."..
 				 "\nNgười chơi bào bỏ 1 lá BÍCH được rút lại 1 lá。",
 	["jijiu"] = "Cấp Cứu",
-	[":jijiu"] = "Ngoài lượt của bạn, bạn được dùng lá ĐỎ như lá ĐÀO。",
+	[":jijiu"] = "Ngoài lượt của bạn, bạn được dùng lá Đỏ như lá Đào.",
 
 	["#diaochan"] = "Tuyệt Thế Đích Vũ Cơ",
 	["diaochan"] = "Điêu Thuyền",
@@ -275,20 +275,20 @@ return {
 	["wangzun"] = "Vọng Tôn",
 	[":wangzun"] = "Đầu lượt chuẩn bị của VUA, bạn được rút 1 lá, rồi giới hạn bài của VUA giảm đi 1.",
 	["tongji"] = "Đồng Tật",
-	[":tongji"] = "Tọa Định Kỉ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
+	[":tongji"] = "Tỏa Định Kĩ. Nếu số bài trên tay bạn lớn hơn số máu, và bạn đang trong tầm đánh của 1 người chơi, những người chơi khác không thể trở thành mục tiêu của lá SÁT.",
 
 	["#st_huaxiong"] = "Phi Dương Bạt hổ",
 	["st_huaxiong"] = "Hoa Hùng",
 	["illustrator:st_huaxiong"] = "ĐỊA NGỤC HỔ",
 	["yaowu"] = "Diệu Vũ",
-	[":yaowu"] = "Tọa Định Kỉ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
+	[":yaowu"] = "Tỏa Định Kĩ. Khi bạn nhật sát thương từ lá SÁT đỏ, nguồn sát thương được chọn: hồi 1 máu, hoặc rút 1 lá.",
 	["yaowu:recover"] = "Hồi 1 máu",
 	["yaowu:draw"] = "Lấy 1 lá.",
 
 	["st_gongsunzan"] = "Công Tôn Toản",--公孙瓒
 	["illustrator:st_gongsunzan"] = "Công Tôn Toản",
 	["qiaomeng"] = "Chiêu Mãnh",
-	[":qiaomeng"] = "Khi bạn gây sát thương thành công lên một người chơi khác bằng SÁT đen, \nbạn có thể bỏ một lá trong khu vực của người chơi đó: \nNếu lá đó là CHIẾN MÃ, bạn nhận được lá đó.",--每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。
+	[":qiaomeng"] = "Khi bạn gây sát thương thành công lên một người chơi khác bằng Sát đen, \nbạn có thể bỏ một lá trong khu vực của người chơi đó: \nNếu lá đó là CHIẾN MÃ, bạn nhận được lá đó.",--每当你使用黑色【杀】对一名角色造成伤害后，你可以弃置该角色装备区的一张牌：若此牌为坐骑牌，此牌置入弃牌堆时你获得之。
 
 	-- Test
 	["test"] = "Trắc Thí",
@@ -307,7 +307,7 @@ return {
 	["&super_yuanshu"] = "Viên Thuật",
 	["illustrator:super_yuanshu"] = "NGÔ HẠO",
 	["super_yongsi"] = "Dung Tú",
-	[":super_yongsi"] = "Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kỉ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
+	[":super_yongsi"] = "Tỏa Định Kĩ. Trong giai đoạn rút bài, bạn được rút 6 lá. \nĐầu giai đoạn xả bài, bạn phải bỏ 4 lá.",-- Tọa Định Kĩ. Trong giai đoạn rút bài, bạn được rút X lá. Đầu giai đoạn xả bài, bạn phải bỏ X lá.
 
 	["super_caoren"] = "Trắc Thí Tào Nhân",
 	["&super_caoren"] = "Tào Nhân",
