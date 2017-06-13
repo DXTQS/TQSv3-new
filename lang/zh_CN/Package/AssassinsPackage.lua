@@ -1,37 +1,37 @@
 -- translation for Assassins Package
 
 return {
-	["assassins"] = "铜雀台",
+	["assassins"] = "Sát Thủ", --铜雀台
 
-	["#fuwan"] = "沉毅的国丈",
-	["fuwan"] = "伏完",
+	["#fuwan"] = "Trầm Nghị Đích Quốc Trượng",
+	["fuwan"] = "Phục Hoàn", --伏完
 	["illustrator:fuwan"] = "LiuHeng",
-	["moukui"] = "谋溃",
-	[":moukui"] = "每当你指定【杀】的目标后，你可以选择一项：摸一张牌，或弃置目标角色一张牌：若如此做，此【杀】被目标角色的【闪】抵消后，该角色弃置你的一张牌。",
-	["moukui:draw"] = "摸一张牌",
-	["moukui:discard"] = "弃置目标角色一张牌",
+	["moukui"] = "Mưu Hội", --谋溃
+	[":moukui"] = "Bất cứ khi nào bạn dùng <b>【Sát】</b> lên mục tiêu, Bạn có thể chọn 1 trong các lựa chọn：rút thêm 1 lá từ chồng bài hoặc hủy bỏ một lá của mục tiêu; nếu kỹ năng này được kích hoạt và mục tiêu sử dụng lá <b>【Ngự】</b> thành công，mục tiêu có thể hủy bỏ một lá của bạn.",
+	["moukui:draw"] = "Rút một thẻ", --摸一张牌
+	["moukui:discard"] = "Hủy một thẻ của mục tiêu", --弃置目标角色一张牌
 
-	["#liuxie"] = "受困天子",
-	["liuxie"] = "刘协",
+	["#liuxie"] = "Thụ Khốn Thiên Tử",
+	["liuxie"] = "Lưu Hiệp", --刘协
 	["illustrator:liuxie"] = "LiuHeng",
-	["tianming"] = "天命",
-	[":tianming"] = "每当你被指定为【杀】的目标时，你可以弃置两张牌，然后摸两张牌。若全场唯一的体力值最多的角色不是你，该角色也可以弃置两张牌，然后摸两张牌。",
-	["mizhao"] = "密诏",
-	[":mizhao"] = "<font color=\"green\"><b>出牌阶段限一次，</b></font>你可以将所有手牌（至少一张）交给一名其他角色：若如此做，你令该角色与另一名由你指定的有手牌的角色拼点：若一名角色赢，视为该角色对没赢的角色使用一张【杀】。",
+	["tianming"] = "Thiên Mệnh", --天命
+	[":tianming"] = "Bất cứ khi nào bạn là mục tiêu của lá <b>【Sát】</b>, bạn có thể bỏ 2 lá và rút 2 lá. Nếu có một người chơi khác có số máu hiện tại lớn hơn những người còn lại, người đó cũng có thể rút 2 lá và bỏ 2 lá.", --每当你被指定为【杀】的目标时，你可以弃置两张牌，然后摸两张牌。若全场唯一的体力值最多的角色不是你，该角色也可以弃置两张牌，然后摸两张牌。
+	["mizhao"] = "Mật Chiếu", --密诏
+	[":mizhao"] = "Hạn Định Kĩ. bạn có thể cho toàn bộ bài trên tay cho một người chơi khác và chọn một người chơi thứ hai, để người được cho bài tiến hành đấu điểm với người đó: Người nào thắng thì được dùng <b>【Sát】</b> lên người còn lại.", --你可以将所有手牌（至少一张）交给一名其他角色：若如此做，你令该角色与另一名由你指定的有手牌的角色拼点：若一名角色赢，视为该角色对没赢的角色使用一张【杀】。
 	["@mizhao-pindian"] = "请选择与 %src 拼点的角色",
 
-	["#lingju"] = "情随梦逝",
-	["lingju"] = "灵雎",
+	["#lingju"] = "Nhân Vật Hư Cấu", --情随梦逝
+	["lingju"] = "Linh Thư", --灵雎
 	["illustrator:lingju"] = "木美人",
-	["jieyuan"] = "竭缘",
-	[":jieyuan"] = "每当你对一名其他角色造成伤害时，若其体力值大于或等于你的体力值，你可以弃置一张黑色手牌：若如此做，此伤害+1。每当你受到一名其他角色造成的伤害时，若其体力值大于或等于你的体力值，你可以弃置一张红色手牌：若如此做，此伤害-1。",
-	["@jieyuan-increase"] = "你可以弃置一张黑色手牌令 %src 受到的伤害+1",
-	["@jieyuan-decrease"] = "你可以弃置一张红色手牌令 %src 造成的伤害-1",
-	["#JieyuanIncrease"] = "%from 发动了“<font color=\"yellow\"><b>竭缘</b></font>”，伤害点数从 %arg 点增加至 %arg2 点",
-	["#JieyuanDecrease"] = "%from 发动了“<font color=\"yellow\"><b>竭缘</b></font>”，伤害点数从 %arg 点减少至 %arg2 点",
-	["fenxin"] = "焚心",
-	[":fenxin"] = "<font color=\"red\"><b>限定技，</b></font>若你不是主公，你杀死一名非主公其他角色检验胜利条件之前，你可以与该角色交换身份牌。",
-	["@burnheart"] = "焚心",
+	["jieyuan"] = "Kiệt Duyên", --竭缘
+	[":jieyuan"] = "Bất cứ khi nào bạn gây sát thương cho một người chơi, nếu máu của người đó lớn hơn hoặc bằng máu của bạn, bạn có thể bỏ 1 lá đen trên tay để +1 sát thương cho người đó.<br />Bất cứ khi nào bạn nhận sát thương từ người chơi khác, nếu máu của bạn lớn hơn hoặc bằng người đó, sát thương giảm -1.",  --每当你对一名其他角色造成伤害时，若其体力值大于或等于你的体力值，你可以弃置一张黑色手牌：若如此做，此伤害+1。每当你受到一名其他角色造成的伤害时，若其体力值大于或等于你的体力值，你可以弃置一张红色手牌：若如此做，此伤害-1。
+	["@jieyuan-increase"] = "Bạn có thể bỏ một lá đen để %src nhận thêm +1 sát thương",  
+	["@jieyuan-decrease"] = "Bạn có thể bỏ một lá đỏ để  %src giảm -1 sát thương", --你可以弃置一张红色手牌令 %src 造成的伤害-1"
+	["#JieyuanIncrease"] = "%from đã phát động “<font color=\"yellow\"><b>Kiệt Duyên</b></font>”，sát thương từ %arg tăng lên thành %arg2 điểm",
+	["#JieyuanDecrease"] = "%from đã phát động “<font color=\"yellow\"><b>Kiệt Duyên</b></font>”，sát thương từ %arg giảm xuống còn %arg2 điểm",
+	["fenxin"] = "Phẫn Tâm", --焚心
+	[":fenxin"] = "Hạn Định Kĩ. Khi bạn giết thành công một người chơi khác, bạn có thể đổi nhân vật với người bạn vừa giết. Bạn không thể kích hoạt kỹ năng này nếu bạn là Vua hoặc người bị giết là Vua.",
+	["@burnheart"] = "Phẫn Tâm", --焚心
 	["$FenxinAnimate"] = "image=image/animate/fenxin.png",
 
 	["#as_jiben"] = "誓死除奸恶",
