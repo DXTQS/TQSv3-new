@@ -47,7 +47,7 @@ return {
 	["&xushu"] = "Từ Tứ",--徐庶
 	["illustrator:xushu"] = "XINA",
 	["wuyan"] = "Vô Ngôn",--无言
-	[":wuyan"] = "Tỏa Định Kĩ. Khi bạn bị thương, bạn không bị sát thương gây ra bởi lá công cụ.",--锁定技。每当你造成或受到伤害时，防止锦囊牌的伤害。
+	[":wuyan"] = "Tỏa Định Kĩ. Khi bạn dùng hoặc là mục tiêu của lá công cụ không duy trì, lá công cụ đó bị vô hiệu hóa.",--锁定技。每当你造成或受到伤害时，防止锦囊牌的伤害。
 	["jujian"] = "Cử Tiến",--举荐
 	[":jujian"] = "Cuối lượt, bạn có thể bỏ 1 lá không phải lá cơ bản và chọn 1 người chơi khác: người đó có thể rút 2 lá, hoặc hồi 1 máu, hoặc lật mặt tướng nếu bị úp mặt tướng.",--结束阶段开始时，你可以弃置一张非基本牌并选择一名其他角色：若如此做，该角色选择一项：摸两张牌，或回复1点体力，或重置武将牌并将其翻至正面朝上。
 	["@jujian-card"] = "Bạn có thể kích hoạt Cử Tiến",--你可以发动“举荐”
