@@ -47,7 +47,7 @@ return {
 	["designer:jianyong"] = "Nocihoo",
 	["illustrator:jianyong"] = "Thinking",
 	["qiaoshui"] = "Xảo Thuyết",--巧说
-	[":qiaoshui"] = "Đầu lượt hành động, bạn có thể đấu điểm với 1 người chơi khác: nếu thắng, khi bạn dùng lá cơ bản hoặc lá công cụ, bạn được thêm 1 mục tiêu (không giới hạn tầm) hoặc giảm 1 mục tiêu (với lá nhiều mục tiêu); nếu bạn thua, bạn không được dùng lá công cụ cho đến hết lượt.",--出牌阶段开始时，你可以与一名其他角色拼点：若你赢，本回合你使用的下一张基本牌或非延时锦囊牌可以增加一个额外目标（无距离限制）或减少一名目标（若原有至少两名目标）；若你没赢，你不能使用锦囊牌，直到回合结束。
+	[":qiaoshui"] = "Đầu lượt hành động, bạn có thể đấu điểm với 1 người chơi khác: nếu thắng, khi bạn dùng lá cơ bản hoặc lá công cụ không duy trì, bạn được thêm 1 mục tiêu (không giới hạn tầm) hoặc giảm 1 mục tiêu (với lá nhiều mục tiêu); nếu bạn thua, bạn không được dùng lá công cụ cho đến hết lượt.",--出牌阶段开始时，你可以与一名其他角色拼点：若你赢，本回合你使用的下一张基本牌或非延时锦囊牌可以增加一个额外目标（无距离限制）或减少一名目标（若原有至少两名目标）；若你没赢，你不能使用锦囊牌，直到回合结束。
 	["qiaoshui:add"] = "Thêm 1 mục tiêu",--增加一名目标
 	["qiaoshui:remove"] = "Giảm 1 mục tiêu",--减少一名目标
 	["@qiaoshui-card"] = "Bạn có thể dùng Xảo Thuyết",--你可以发动“巧说”
