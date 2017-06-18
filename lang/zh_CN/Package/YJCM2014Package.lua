@@ -69,7 +69,7 @@ return {
 	["jianying"] = "Tiệm Doanh",--渐营
 	[":jianying"] = "Khi bạn sài lá cùng màu hay cùng số, bạn được rút 1 lá.",--每当你于出牌阶段内使用一张牌时，若此牌与你本阶段使用的上一张牌花色或点数相同，你可以摸一张牌。
 	["shibei"] = "Thỉ Bắc",--矢北
-	[":shibei"] = "Tỏa Định Kĩ. Khi bạn bị thương bởi 1 lá nhiều lần trong lượt, bạn được hồi 1 máu. ",--锁定技。每当你于一名角色的回合内受到伤害后，若为你本回合第一次受到伤害，你回复1点体力，否则你失去1点体力。
+	[":shibei"] = "Tỏa Định Kĩ. Khi bạn bị thương, nếu đây là lần đầu tiên trong lượt, bạn được hồi 1 máu. Nếu không bạn mất thêm 1 máu. ",--锁定技。每当你于一名角色的回合内受到伤害后，若为你本回合第一次受到伤害，你回复1点体力，否则你失去1点体力。
 
 	["#sunluban"] = "Vi Hổ Tác Trành",--为虎作伥
 	["sunluban"] = "Tốn Lỗ Ban",--孙鲁班
@@ -98,10 +98,10 @@ return {
 	["illustrator:zhangsong"] = "尼乐小丑",
 	["designer:zhangsong"] = "铁血冥剑",
 	["qiangzhi"] = "Cường Thức",--强识
-	[":qiangzhi"] = "Đầu lượt, bạn mở 1 lá trên tay của ai đó, và nếu dùng 1 lá cùng loại với lá đó, bạn rút 1 lá.",--出牌阶段开始时，你可以展示一名其他角色的一张手牌：若如此做，每当你于此阶段内使用与此牌类别相同的牌时，你可以摸一张牌。
+	[":qiangzhi"] = "Đầu lượt, bạn mở 1 lá trên tay của ai đó, và nếu dùng 1 lá cùng loại thẻ (ví dụ cùng là lá cơ bản, hoặc lá công cụ) với lá đó, bạn rút 1 lá.",--出牌阶段开始时，你可以展示一名其他角色的一张手牌：若如此做，每当你于此阶段内使用与此牌类别相同的牌时，你可以摸一张牌。
 	["qiangzhi-invoke"] = "Bạn sài Cường Thức <br/> <b>Hướng dẫn</b>: Chọn ai có bài → Bấm OK<br/>",--你可以发动“强识”<br/> <b>操作提示</b>: 选择一名有手牌的其他角色→点击确定<br/>
 	["xiantu"] = "Hiến Đồ",--献图
-	[":xiantu"] = "Bạn được rút 2 lá vào đầu lượt của người khác, rồi bạn cho họ 2 lá, nếu hết lượt họ kô Sát ai, bạn mất 1 máu.",--一名其他角色的出牌阶段开始时，你可以摸两张牌：若如此做，你交给其两张牌；且本阶段结束后，若该角色未于本阶段杀死过一名角色，你失去1点体力。
+	[":xiantu"] = "Bạn được rút 2 lá vào đầu lượt của người khác, rồi bạn cho họ 2 lá, nếu hết lượt họ kô giết ai, bạn mất 1 máu.",--一名其他角色的出牌阶段开始时，你可以摸两张牌：若如此做，你交给其两张牌；且本阶段结束后，若该角色未于本阶段杀死过一名角色，你失去1点体力。
 	["@xiantu-give"] = "Đưa %dest %arg lá",--请交给 %dest %arg 张牌
 	["#Xiantu"] = "%from kô chém ai,%to bị “%arg”",--%from 未于本阶段杀死过角色，%to 的“%arg”被触发
 

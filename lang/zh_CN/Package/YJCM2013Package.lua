@@ -9,7 +9,7 @@ return {
 	["chengxiang"] = "Xưng Tượng",--称象
 	[":chengxiang"] = "Mỗi khi bạn bị thương, bạn có thể cho xem 4 lá trên cùng chồng bài, rồi lấy sao cho tổng số điểm của những lá bạn lấy nhỏ hơn 13.",--每当你受到伤害后，你可以亮出牌堆顶的四张牌，然后获得其中至少一张点数之和小于或等于13的牌，并将其余的牌置入弃牌堆。
 	["renxin"] = "Nhân Tâm",--仁心
-	[":renxin"] = "Khi 1 người chơi khác bị hấp hối, nếu bạn có bài, bạn có thể bỏ hết bài và lật tướng người chơi đó để người đó hồi 1 máu.",--每当一名体力值为1的其他角色受到伤害时，你可以将武将牌翻面并弃置一张装备牌：若如此做，防止此伤害。
+	[":renxin"] = "Khi ai đó 1 máu bị nguy hiểm, bạn có thể lật tướng và bỏ 1 lá trang bị để ngăn ngừa sát thương đó.",--每当一名体力值为1的其他角色受到伤害时，你可以将武将牌翻面并弃置一张装备牌：若如此做，防止此伤害。
 	["@renxin-card"] = "Bạn có thể bỏ bài để sử dụng Nhân Tâm cứu %src ",--你可以弃置一张装备牌发动“仁心”防止 %src 受到的伤害
 	["#Renxin"] = "%from tránh khỏi sát thương bởi %arg ",--%from 受到的伤害由于“%arg”效果被防止
 
