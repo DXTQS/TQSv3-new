@@ -35,7 +35,7 @@ return {
 	["illustrator:chenqun"] = "DH",
 	["designer:chenqun"] = "To Joanna",
 	["dingpin"] = "Định Phẩm",--定品
-	[":dingpin"] = "Khi bạn gây sát thương thành công, bạn được bỏ đi 1 lá khác với lá dùng để gây sát thương, rồi người bị thương rút phát xét: nếu là Đen, họ được rút X lá và không bị Định Phẩm nữa trong lượt này; là Đỏ, bạn phải lật lá tướng. X là số sát thương họ đã bị.",--出牌阶段，你可以弃置一张与你本回合已使用或弃置的牌类别均不同的手牌，然后令一名已受伤的角色进行判定：若结果为黑色，该角色摸X张牌，且你本阶段不能对该角色发动“定品”；红色，你将武将牌翻面。（X为该角色已损失的体力值）
+	[":dingpin"] = "Trong lượt hành động, bạn bỏ 1 lá khác với những lá đã dùng hay bỏ trong lượt, rồi chọn ai đó đã bị thương rút phát xét: nếu đỏ, họ rút X lá, X là số máu họ đã mất, kô dùng Định Phẩm lên với họ đc nữa; nếu đen, bạn bị lật mặt tướng. ",--出牌阶段，你可以弃置一张与你本回合已使用或弃置的牌类别均不同的手牌，然后令一名已受伤的角色进行判定：若结果为黑色，该角色摸X张牌，且你本阶段不能对该角色发动“定品”；红色，你将武将牌翻面。（X为该角色已损失的体力值）
 	["faen"] = "Pháp Ân",--法恩
 	[":faen"] = "Khi ai đó lật lá tướng hoặc bị xích, bạn có thể cho họ rút 1 lá.",--每当一名角色的武将牌翻面或横置时，你可以令其摸一张牌。
 
